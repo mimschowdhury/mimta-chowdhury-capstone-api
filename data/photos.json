@@ -397,7 +397,7 @@
   {
     "id": "94e05778-bcdb-48fa-b140-ef398b48e3c1",
     "photo": "http://localhost:8080/images/Photo-15.png",
-    "photoDescription": "Music City Center located in downtown Nashville, Tennessee.",
+    "photoDescription": "Café 23 is a little slice of Paris in the heart of Toronto! With its charming terrace that feels like an escape from the hustle and bustle of the city, it’s the perfect spot to unwind. The serene ambiance transports you to a peaceful haven, and the French-inspired decor gives the café an unmistakable European flair.",
     "photographer": "Café 23",
     "likes": 360,
     "googleRating": 4.4,
@@ -498,6 +498,12 @@
         "comment": "The clarity and focus in this shot are impeccable. Great job!",
         "id": "d1b93dcf-ec44-49be-b98b-7bd17456acaf",
         "timestamp": 1725476264000
+      },
+      {
+        "id": "4faf5418-587d-4456-a6f6-f99a677dbfe5",
+        "name": "Mimta",
+        "comment": "My favourite cafe to study in! Loveeee the interiors and the spacious seating!",
+        "timestamp": 1741820586633
       }
     ]
   },
