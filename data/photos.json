@@ -2,7 +2,8 @@
   {
     "id": "6be619d5-de2c-4f62-ac1b-bd2e36d71ab9",
     "photo": "http://localhost:8080/images/Photo-00.png",
-    "photoDescription": "Looking up to the Manhattan Bridge, in New York City, New York.",
+    "photoDescription": "Cafe X Bica is where the art of coffee meets the soul of Toronto! This quirky gem offers a cozy space to sip on expertly crafted espresso drinks, each one packed with flavor and personality. Whether you’re fueling up for a busy day or unwinding with friends, Cafe X Bica’s welcoming vibe and delicious brews will make you feel right at home. From its funky decor to its top-notch coffee, this place has everything you need for a little pick-me-up, with a whole lot of flair!",
+    "cafeFavourites": "Our favourites: Cortado, Iced Vanilla Latte, Matcha Latte & Raspberry Croissant.",
     "photographer": "Cafe x Bica",
     "likes": 910,
     "googleRating": 4.7,
@@ -41,12 +42,14 @@
   {
     "id": "8f86c7f4-bd18-4e4a-9328-a54a189dd5ba",
     "photo": "http://localhost:8080/images/Photo-01.png",
-    "photoDescription": "Saint Louis Art Museum, a white concrete building, under white sky during daytime.",
+    "photoDescription": "Cafe Belem is a slice of Lisbon right in the heart of Toronto! Step inside this charming spot, and you’ll feel like you’ve been transported to the sun-soaked streets of Portugal. Known for its mouthwatering pastéis de nata and rich, aromatic coffee, Cafe Belem is the perfect place to indulge in a little sweet escape.",
+    "cafeFavourites": "Our favourites: Pastel de Nata, Bolo de Arroz, Pao de Deus",
     "photographer": "Cafe Belem",
     "likes": 800,
     "googleRating": 4.4,
     "tags": [
       "Ambience",
+      "Best Baked Goods",
       "Downtown Toronto"
     ],
     "comments": [
@@ -67,7 +70,8 @@
   {
     "id": "c8ffcfd1-1ff1-4114-bbf1-a023c4a24f9d",
     "photo": "http://localhost:8080/images/Photo-02.png",
-    "photoDescription": " Located in a historic area, this café offers a unique ambiance that combines history with modern coffee culture.",
+    "photoDescription": "Located in a historic area, this café offers a unique ambiance that combines history with modern coffee culture. Psst...Balzac's Coffee in the Distillery District is our absolute favourite location!",
+    "cafeFavourites": "Our favourites: Parisian Mist, Salted Caramel Latte.",
     "photographer": "Balzac's",
     "likes": 1685,
     "googleRating": 4.6,
@@ -106,7 +110,8 @@
   {
     "id": "8cbf5a70-6cb8-4cce-a4c2-4cde4f84c513",
     "photo": "http://localhost:8080/images/Photo-03.png",
-    "photoDescription": "A bare tree in front of the Nancy and Rich Kinder Building at the Museum of Fine Arts Houston.",
+    "photoDescription": "Page One Cafe & Bar is known for its unique blend of specialty coffee, lively bar energy and craft cocktails. Their specialty lies in offering a creative mix of drinks that cater to both coffee lovers and cocktail enthusiasts. Whether you’re in the mood for a perfectly brewed espresso or a handcrafted cocktail, they have something to suit every taste. The café also offers delicious bites, making it a great place for a casual meet-up or a relaxing break.",
+    "cafeFavourites": "Our favourites: ",
     "photographer": "Page One Cafe & Bar",
     "likes": 2362,
     "googleRating": 4.5,
@@ -138,7 +143,8 @@
   {
     "id": "37c67839-4608-4994-8ab6-ef9ad609df70",
     "photo": "http://localhost:8080/images/Photo-04.png",
-    "photoDescription": "A view of the Crystal Bridges Museum of American Art from across the water.",
+    "photoDescription": "Staé Café is where modern vibes meet cozy comfort. This gem in Markham is all about crafting the perfect cup of coffee, with rich, flavorful blends that keep you coming back for more. Whether you’re enjoying a quiet moment with a latte or catching up with friends over their delicious pastries, Staé Café makes it easy to unwind. Plus, the sleek, minimalist decor adds to the laid-back yet chic atmosphere, making it the perfect spot to sip and relax.",
+    "cafeFavourites": "Our favourites: Spanish Latte, Pistachio Matcha Latte, Steak Sandwich, Biscoff Basque Cheesecake.",
     "photographer": "Stae Cafe",
     "likes": 2667,
     "googleRating": 4.3,
@@ -159,14 +165,15 @@
   {
     "id": "9d8e239c-3953-4822-83f2-ccdd98b8c5e6",
     "photo": "http://localhost:8080/images/Photo-05.png",
-    "photoDescription": "A train traveling through Chicago, Illinois next to tall buildings.",
+    "photoDescription": "This cozy spot is a sweet tooth’s dream, with delicious pastries and baked goods that are as charming as its name. Whether you’re craving a flaky croissant, a decadent slice of cake, or a freshly brewed coffee, Circles & Squares has you covered.",
+    "cafeFavourites": "Our favourites: Almond Croissant, Maple Pecan Butter Tart, Spinach Feta Cheese Quiche, Mocha Latte",
     "photographer": "Circles & Squares Bakery Cafe",
     "likes": 1048,
     "googleRating": 4.6,
     "tags": [
       "Ambience",
       "Best Baked Goods",
-      "Scarborough"
+      "North York"
     ],
     "comments": [
       {
@@ -192,7 +199,8 @@
   {
     "id": "238117b8-6c3b-4f0d-b1c3-97e232980e62",
     "photo": "http://localhost:8080/images/Photo-06.png",
-    "photoDescription": "Green trees beside the brown building of Ringling Museum in Sarasota, Florida during daytime.",
+    "photoDescription": "Edil’s Coffee House is the perfect blend of warmth, flavor, and community. Nestled in Scarborough, this charming spot serves up delicious brews that make every sip feel like a hug in a cup. Whether you’re popping in for your morning fix or settling in for a long afternoon of sipping and chatting, Edil’s offers the perfect ambiance to do so. Their signature drinks and freshly baked treats make it the ultimate haven for coffee lovers looking to enjoy a peaceful moment or catch up with friends. Come for the coffee, stay for the vibe!",
+    "cafeFavourites": "Our favourites: Tres Leches Iced Latte, Pastrami Sandwich, Cheesy Pesto Melt",
     "photographer": "Edil's Coffee House",
     "likes": 2600,
     "googleRating": 4.7,
@@ -220,9 +228,10 @@
     "id": "89eff543-8ecf-4a64-abbc-495b6443be6f",
     "photo": "http://localhost:8080/images/Photo-07.png",
     "photoDescription": "True to its name, this café provides a library-like environment complemented by exceptional coffee.",
+    "cafeFavourites": "Our favourites: Flat White",
     "photographer": "The Library Specialty Coffee",
     "likes": 1225,
-    "googleRating": 4.9,
+    "googleRating": 4.8,
     "tags": [
       "Best Coffee",
       "Downtown Toronto"
@@ -233,6 +242,7 @@
     "id": "7cf76704-9508-4632-8077-caec02d1929e",
     "photo": "http://localhost:8080/images/Photo-08.png",
     "photoDescription": "Housed in historic buildings, Dineen's marble counters & red leather banquettes evoke old-world glamour, making it a favourite among professionals and tourists alike.",
+    "cafeFavourites": "Our favourites: Carrot Crumble Muffin, Cortado, Blueberry Scone",
     "photographer": "Dineen Coffee Co.",
     "likes": 360,
     "googleRating": 4.5,
@@ -252,7 +262,8 @@
   {
     "id": "beffcc61-7d93-47f7-9938-5f0df5ef3bea",
     "photo": "http://localhost:8080/images/Photo-09.png",
-    "photoDescription": "Tucked away in Toronto’s charming Distillery District, Forget Me Not Coffee is the kind of spot that instantly feels like your new favorite hideaway. This cozy café is all about good vibes, great coffee, and even better company. Whether you’re settling in for a productive study session or catching up with a friend, their bright, plant-filled space makes it easy to feel right at home. Sip on their expertly crafted lattes or treat yourself to one of their house-made pastries (trust us, the croissants are worth writing home about!). With plenty of natural light, reliable WiFi, and a laid-back atmosphere, Forget Me Not Coffee is perfect for getting work done without feeling like you’re working. Bonus: it’s dog-friendly, so feel free to bring along your furry study buddy!",
+    "photoDescription": "Tucked away in Toronto’s charming Distillery District, Forget Me Not Coffee is the kind of spot that instantly feels like your new favorite hideaway. This cozy café is all about good vibes, great coffee, and even better company. Whether you’re settling in for a productive study session or catching up with a friend, their bright, plant-filled space makes it easy to feel right at home. Sip on their expertly crafted lattes or treat yourself to one of their house-made pastries (trust us, the croissants are worth writing home about!). Bonus: it’s dog-friendly, so feel free to bring along your furry study buddy!",
+    "cafeFavourites": "Our favourites: Matcha Latte, Dalgona Iced Latte, Blueberry Scone",
     "photographer": "Forget Me Not Cafe",
     "likes": 1192,
     "googleRating": 4.8,
@@ -273,11 +284,12 @@
     "id": "c27d7e20-b5d1-44fa-854d-9ba5bc2c9fbf",
     "photo": "http://localhost:8080/images/Photo-10.png",
     "photoDescription": "With ample seating and a commitment to quality, it’s a favorite among freelancers and students.",
+    "cafeFavourites": "Our favourites: Espresso, Flat White",
     "photographer": "Pilot Coffee Roasters",
     "likes": 1594,
     "googleRating": 4.7,
     "tags": [
-      "Study Spot",
+      "Best Coffee",
       "Downtown Toronto"
     ],
     "comments": [
@@ -305,6 +317,7 @@
     "id": "d82abf42-e5dd-4726-a4fd-3eb13ce72c53",
     "photo": "http://localhost:8080/images/Photo-11.png",
     "photoDescription": "Named after the Swedish coffee break tradition, FIKA offers a tranquil escape with its minimalist design and delectable pastries.",
+    "cafeFavourites": "Our favourites: Cardamom Latte, Swedish Cinnamon Bun, Fika Iced Latte",
     "photographer": "Fika Cafe",
     "likes": 28,
     "googleRating": 4.6,
@@ -326,11 +339,13 @@
     "id": "f31d524c-7ce8-446b-a4db-107cb089e4b4",
     "photo": "http://localhost:8080/images/Photo-12.png",
     "photoDescription": "An old, run down, building sitting in the middle of a field.",
+    "cafeFavourites": "Our favourites: Beetroot Latte, Ginger Cookie, Almond Croissant",
     "photographer": "Rooster Coffee House",
     "likes": 1594,
     "googleRating": 4.5,
     "tags": [
       "Ambience",
+      "Best Baked Goods",
       "Downtown Toronto"
     ],
     "comments": [
@@ -345,7 +360,8 @@
   {
     "id": "c432adb0-df2d-4f6b-83d0-bfda8d99fca5",
     "photo": "http://localhost:8080/images/Photo-13.png",
-    "photoDescription": "A yellow cab among a city of bricks in New York City, New York.",
+    "photoDescription": "Step into the cozy charm of Maman, where rustic French vibes meet the heart of Toronto. Think whitewashed brick walls, dreamy blue accents, and the warm aroma of freshly baked pastries wafting through the air. Whether you’re here for their famous nutty chocolate chip cookie (yes, that one) or sipping a latte out of their signature floral cups, Maman feels like your stylish best friend’s kitchen in the South of France.",
+    "cafeFavourites": "Our favourites: Blueberry Lavender Loaf Cake, Nutty Chocolate Chip Cookie, Oat Flat White",
     "photographer": "Maman",
     "likes": 964,
     "googleRating": 4.5,
@@ -371,10 +387,11 @@
   {
     "id": "e966674f-58d5-442e-8f42-5902e5ee6571",
     "photo": "http://localhost:8080/images/Photo-14.png",
-    "photoDescription": "A man riding a skateboard down a sidewalk, outside of the Crystal Bridges Museum of American Art in Arizona.",
+    "photoDescription": "Tucked away like a little secret in Toronto’s Upper Beaches, Found Coffee is the kind of spot you’ll wish you discovered sooner. Bright, welcoming, and effortlessly cool, it’s a cozy space where locals gather for good vibes and even better brews.",
+    "cafeFavourites": "Our favourites: Iced Pistachio Latte, Avocado Toast, Matcha Latte.",
     "photographer": "Found Coffee",
     "likes": 1017,
-    "googleRating": 4.5,
+    "googleRating": 4.8,
     "tags": [
       "Best Coffee",
       "Downtown Toronto"
@@ -398,6 +415,7 @@
     "id": "94e05778-bcdb-48fa-b140-ef398b48e3c1",
     "photo": "http://localhost:8080/images/Photo-15.png",
     "photoDescription": "Café 23 is a little slice of Paris in the heart of Toronto! With its charming terrace that feels like an escape from the hustle and bustle of the city, it’s the perfect spot to unwind. The serene ambiance transports you to a peaceful haven, and the French-inspired decor gives the café an unmistakable European flair.",
+    "cafeFavourites": "Our favourites: Iced Vanilla Latte, Homemade Banana Bread, Butter Tart",
     "photographer": "Café 23",
     "likes": 360,
     "googleRating": 4.4,
@@ -410,7 +428,8 @@
   {
     "id": "2ce85c21-4a1e-4b05-b147-8c4957706d3e",
     "photo": "http://localhost:8080/images/Photo-16.png",
-    "photoDescription": "Encouraging community interaction, Dark Horse's long communal tables are perfect for meeting new people or collaborating on projects.",
+    "photoDescription": "Encouraging community interaction, Dark Horse's long communal tables are perfect for meeting new people or collaborating on projects. This Toronto staple is all about expertly crafted espresso drinks, minimalistic interiors, and big windows that flood the space with light—perfect for people-watching or knocking out some work.",
+    "cafeFavourites": "Our favourites: Iced Vanilla Latte, Chai Latte, Oat Milk Latte",
     "photographer": "Dark Horse Espresso Bar",
     "likes": 2578,
     "googleRating": 4.7,
@@ -431,7 +450,8 @@
   {
     "id": "13307e72-f159-4a2f-ac09-f78bf3c7ce22",
     "photo": "http://localhost:8080/images/Photo-17.png",
-    "photoDescription": "An abandoned church and well, remnants of an old western town in Oregon.",
+    "photoDescription": "Step into De Mello, and you’re instantly greeted by a burst of color, quirky art, and the aroma of seriously good coffee. Known for their playful energy and expertly roasted beans, De Mello makes every coffee experience feel like a little adventure. ",
+    "cafeFavourites": "Our favourites: Honey Cinnamon Latte, Blueberry Latte, Espresso",
     "photographer": "De Mello",
     "likes": 1373,
     "googleRating": 4.3,
@@ -445,7 +465,8 @@
   {
     "id": "d8300fda-61f8-42da-8c21-212f01a48b96",
     "photo": "http://localhost:8080/images/Photo-18.png",
-    "photoDescription": "Cables of the Brooklyn Bridge at sunset, creating a geometric pattern across the sky.",
+    "photoDescription": "Tucked away in a charming corner of the city, Lano Coffee is one of those hidden gems you’ll want to keep all to yourself—but it’s too good not to share. Minimalist design, bright airy vibes, and thoughtfully crafted coffee make Lano the perfect spot to sip, relax, and reset.",
+    "cafeFavourites": "Our favourites: Basque Cheesecake, Spanish Latte.",
     "photographer": "Lano",
     "likes": 2563,
     "googleRating": 4.5,
@@ -483,12 +504,12 @@
   {
     "id": "c2e3a895-eaf0-42a8-8f9b-4722300ba847",
     "photo": "http://localhost:8080/images/Photo-19.png",
-    "photoDescription": "Curved lines form the white exterior of the Getty Museum in Los Angeles, California.",
+    "photoDescription": "Stylish, sleek, and effortlessly cool—10 DEAN is a café that knows how to make an impression. Located in Downtown Toronto, this coffee spot blends Scandinavian minimalism with warm, welcoming vibes. It’s the kind of place where you’ll want to linger over your latte, whether you’re deep in thought or deep in conversation.",
+    "cafeFavourites": "Our favourites: Strawberry Matcha Latte, Ube Iced Latte, Cookie Butter Latte.",
     "photographer": "10 Dean",
     "likes": 46,
     "googleRating": 4.6,
     "tags": [
-      "Best Baked Goods",
       "Study Spot",
       "Downtown Toronto"
     ],
@@ -510,7 +531,8 @@
   {
     "id": "aae2a3f0-24d0-4410-bbd7-d63cfbe1c671",
     "photo": "http://localhost:8080/images/Photo-20.png",
-    "photoDescription": "Orange metro tram on the street during daytime in downtown Houston, Texas.",
+    "photoDescription": "Minimalist design meets matcha dreams at Cafe N One, a sleek and calming space perfect for unwinding or catching up on work. Known for its modern aesthetic, clean lines, and neutral tones, this spot is all about good vibes and great drinks. Whether you’re a matcha enthusiast or just love a pretty latte, this place checks all the boxes.",
+    "cafeFavourites": "Our favourites: Strawberry Matcha Latte, Iced Yuzu Berry Matcha Latte, Soufflé Pancakes, Smoked Salmon Croissant",
     "photographer": "Cafe N One",
     "likes": 375,
     "googleRating": 4.3,
@@ -532,9 +554,10 @@
     "id": "4731eeb7-64c7-4d56-933f-e3c17be293a8",
     "photo": "http://localhost:8080/images/Photo-21.png",
     "photoDescription": "Nestled in the eclectic Kensington Market, Pamenar offers a laid-back vibe, perfect for people-watching while sipping on a cappuccino.",
+    "cafeFavourites": "Our favourites: Americano, Chai Latte",
     "photographer": "Café Pamenar",
     "likes": 1708,
-    "googleRating": 4.7,
+    "googleRating": 4.4,
     "tags": [
       "Ambience",
       "Downtown Toronto"
@@ -558,6 +581,7 @@
     "id": "df129bd3-452b-41ca-bc59-bc9b1c606e09",
     "photo": "http://localhost:8080/images/Photo-22.png",
     "photoDescription": "This light-filled café offers innovative latte flavors and a welcoming atmosphere, making it a favorite among locals.",
+    "cafeFavourites": "Our favourites: Affogato, Avocado Toast, Breakfast Sandwich.",
     "photographer": "Versus Coffee",
     "likes": 2272,
     "googleRating": 4.6,
@@ -579,6 +603,7 @@
     "id": "6321c961-de3b-44a3-9725-62a0560135db",
     "photo": "http://localhost:8080/images/Photo-23.png",
     "photoDescription": "A blend of café and bar, offering a relaxed environment perfect for diving into a book or working on a project.",
+    "cafeFavourites": "Our favourites: Huevos Rancheros, Cafe Mocha",
     "photographer": "The Only Café",
     "likes": 88,
     "googleRating": 4.3,
