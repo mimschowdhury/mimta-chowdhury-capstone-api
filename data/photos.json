@@ -111,7 +111,7 @@
     "id": "8cbf5a70-6cb8-4cce-a4c2-4cde4f84c513",
     "photo": "http://localhost:8080/images/Photo-03.png",
     "photoDescription": "Page One Cafe & Bar is known for its unique blend of specialty coffee, lively bar energy and craft cocktails. Their specialty lies in offering a creative mix of drinks that cater to both coffee lovers and cocktail enthusiasts. Whether you’re in the mood for a perfectly brewed espresso or a handcrafted cocktail, they have something to suit every taste. The café also offers delicious bites, making it a great place for a casual meet-up or a relaxing break.",
-    "cafeFavourites": "Our favourites: ",
+    "cafeFavourites": "Our favourites: Chai Latte, Avocado Toast",
     "photographer": "Page One Cafe & Bar",
     "likes": 2362,
     "googleRating": 4.5,
@@ -159,6 +159,12 @@
         "comment": "The perspective here is unique and adds a lot of interest to the photo.",
         "id": "ffe8efba-435f-4304-afb7-67229606accc",
         "timestamp": 1724612264000
+      },
+      {
+        "id": "faeccae5-7ea7-4c95-8b19-3bcece1a333f",
+        "name": "Mimta",
+        "comment": "I'm in love with their steak sandwich! Their breakfast items here are sooo delicious, and I love how cozy, yet modern the cafe feels - definitely my favourite spot to catch up with friends!",
+        "timestamp": 1741897005602
       }
     ]
   },
