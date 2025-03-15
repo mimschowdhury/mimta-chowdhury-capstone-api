@@ -112,14 +112,16 @@
         "comment": "comment",
         "timestamp": 1740544380713
       }
-    ]
+    ],
+    "lat": 43.669872786322664,
+    "lng": -79.44764378117152
   },
   {
     "id": "8cbf5a70-6cb8-4cce-a4c2-4cde4f84c513",
     "photo": "http://localhost:8080/images/Photo-03.png",
-    "photoDescription": "Page One Cafe & Bar is known for its unique blend of specialty coffee, lively bar energy and craft cocktails. Their specialty lies in offering a creative mix of drinks that cater to both coffee lovers and cocktail enthusiasts. Whether you’re in the mood for a perfectly brewed espresso or a handcrafted cocktail, they have something to suit every taste. The café also offers delicious bites, making it a great place for a casual meet-up or a relaxing break.",
+    "photoDescription": "Page One Coffee & Bar is known for its unique blend of specialty coffee, lively bar energy and craft cocktails. Their specialty lies in offering a creative mix of drinks that cater to both coffee lovers and cocktail enthusiasts. Whether you’re in the mood for a perfectly brewed espresso or a handcrafted cocktail, they have something to suit every taste. The café also offers delicious bites, making it a great place for a casual meet-up or a relaxing break.",
     "cafeFavourites": "Our favourites: Chai Latte, Avocado Toast",
-    "photographer": "Page One Cafe & Bar",
+    "photographer": "Page One Coffee & Bar",
     "likes": "106 Mutual St Unit #8",
     "googleRating": 4.4,
     "placeId": "ChIJn1e27DXL1IkReA60T93m2Fw",
@@ -146,7 +148,9 @@
         "id": "5b321591-89f1-4545-aa13-147e9f62f89b",
         "timestamp": 1725476264000
       }
-    ]
+    ],
+    "lat": 43.65821492780781,
+    "lng": -79.37620968806982
   },
   {
     "id": "37c67839-4608-4994-8ab6-ef9ad609df70",
@@ -175,7 +179,9 @@
         "comment": "I'm in love with their steak sandwich! Their breakfast items here are sooo delicious, and I love how cozy, yet modern the cafe feels - definitely my favourite spot to catch up with friends!",
         "timestamp": 1741897005602
       }
-    ]
+    ],
+    "lat": 43.870217258427914,
+    "lng": -79.2243450322387
   },
   {
     "id": "9d8e239c-3953-4822-83f2-ccdd98b8c5e6",
@@ -210,7 +216,9 @@
         "id": "280be87a-837a-4d92-8800-6fe51f596ef6",
         "timestamp": 1724957864000
       }
-    ]
+    ],
+    "lat": 43.72002282153777,
+    "lng": -79.31268619043634
   },
   {
     "id": "238117b8-6c3b-4f0d-b1c3-97e232980e62",
@@ -239,7 +247,9 @@
         "id": "d81998cb-5b0c-4626-aaee-068e60a3011f",
         "timestamp": 1725130664000
       }
-    ]
+    ],
+    "lat": 43.76343215178763,
+    "lng": -79.28050714573617
   },
   {
     "id": "89eff543-8ecf-4a64-abbc-495b6443be6f",
@@ -276,7 +286,9 @@
         "id": "c6c9fc57-d2a8-4e02-b6e4-f39c7befff0c",
         "timestamp": 1724785064000
       }
-    ]
+    ],
+    "lat": 43.64558263518129,
+    "lng": -79.41139328910359
   },
   {
     "id": "beffcc61-7d93-47f7-9938-5f0df5ef3bea",
@@ -298,7 +310,9 @@
         "id": "a449a5bc-4f85-44c1-a84b-39e9d3359302",
         "timestamp": 1724957864000
       }
-    ]
+    ],
+    "lat": 43.64608688737857,
+    "lng": -79.39962787375873
   },
   {
     "id": "c27d7e20-b5d1-44fa-854d-9ba5bc2c9fbf",
@@ -306,7 +320,7 @@
     "photoDescription": "With ample seating and a commitment to quality, it’s a favorite among freelancers and students.",
     "cafeFavourites": "Our favourites: Espresso, Flat White",
     "photographer": "Pilot Coffee Roasters",
-    "likes": "65 Front St W",
+    "likes": "50 Wagstaff Dr",
     "googleRating": 4.7,
     "placeId": "ChIJ84vitCzL1IkRDT5wnL5MaBs",
     "tags": [
@@ -332,7 +346,9 @@
         "comment": "comment!",
         "timestamp": 1740542942095
       }
-    ]
+    ],
+    "lat": 43.67464131237546,
+    "lng": -79.3296588769553
   },
   {
     "id": "d82abf42-e5dd-4726-a4fd-3eb13ce72c53",
@@ -355,7 +371,9 @@
         "id": "cbd4f2cb-cf7d-4caa-92e7-035e38753ffa",
         "timestamp": 1724612264000
       }
-    ]
+    ],
+    "lat": 43.65393447508275,
+    "lng": -79.39945577037243
   },
   {
     "id": "f31d524c-7ce8-446b-a4db-107cb089e4b4",
@@ -378,7 +396,9 @@
         "id": "080ebf0b-ff4b-4d06-a54c-3f411f0b4f8f",
         "timestamp": 1724957864000
       }
-    ]
+    ],
+    "lat": 43.670795879283446,
+    "lng": -79.35214748460038
   },
   {
     "id": "c432adb0-df2d-4f6b-83d0-bfda8d99fca5",
@@ -406,7 +426,9 @@
         "id": "7b57e4c4-dda6-42ad-9e0f-18c9e13c592b",
         "timestamp": 1725130664000
       }
-    ]
+    ],
+    "lat": 43.64889538732608,
+    "lng": -79.38217053731451
   },
   {
     "id": "e966674f-58d5-442e-8f42-5902e5ee6571",
@@ -434,7 +456,9 @@
         "id": "888457e0-97b0-4900-b24c-63efc4101f4e",
         "timestamp": 1725476264000
       }
-    ]
+    ],
+    "lat": 43.657799950292926,
+    "lng": -79.40149011793913
   },
   {
     "id": "94e05778-bcdb-48fa-b140-ef398b48e3c1",
@@ -472,7 +496,9 @@
         "id": "566a3622-012d-4aa3-a6ed-1ccf6306ae13",
         "timestamp": 1724957864000
       }
-    ]
+    ],
+    "lat": 43.64654508512817,
+    "lng": -79.40859812720747
   },
   {
     "id": "13307e72-f159-4a2f-ac09-f78bf3c7ce22",
@@ -488,7 +514,10 @@
       "Study Spot",
       "Downtown Toronto"
     ],
-    "comments": []
+    "comments": [
+    ],
+    "lat": 43.64330812193805,
+    "lng": -79.39412510949266
   },
   {
     "id": "d8300fda-61f8-42da-8c21-212f01a48b96",
@@ -528,7 +557,9 @@
         "id": "f20f620a-efcf-41bf-ae1c-9e448982c3c7",
         "timestamp": 1725476264000
       }
-    ]
+    ],
+    "lat": 43.64556850790877,
+    "lng": -79.38626485419022
   },
   {
     "id": "c2e3a895-eaf0-42a8-8f9b-4722300ba847",
@@ -556,7 +587,9 @@
         "comment": "My favourite cafe to study in! Loveeee the interiors and the spacious seating!",
         "timestamp": 1741820586633
       }
-    ]
+    ],
+    "lat": 43.65847458665146,
+    "lng": -79.39992133276742
   },
   {
     "id": "aae2a3f0-24d0-4410-bbd7-d63cfbe1c671",
@@ -579,7 +612,9 @@
         "id": "16bf5bb5-cbdf-4f61-8895-74b24f16c5a5",
         "timestamp": 1724785064000
       }
-    ]
+    ],
+    "lat": 43.77964625807779,
+    "lng": -79.41431336448332
   },
   {
     "id": "4731eeb7-64c7-4d56-933f-e3c17be293a8",
@@ -607,7 +642,9 @@
         "id": "65c71eec-0f39-4a9d-99b7-642a89e511ee",
         "timestamp": 1724957864000
       }
-    ]
+    ],
+    "lat": 43.65683095267304,
+    "lng": -79.40209785975016
   },
   {
     "id": "df129bd3-452b-41ca-bc59-bc9b1c606e09",
@@ -630,7 +667,9 @@
         "id": "6f25b0a0-fce2-4b5d-8b52-e14bcba6ce73",
         "timestamp": 1724957864000
       }
-    ]
+    ],
+    "lat": 43.651379114462095,
+    "lng": -79.37495026531117
   },
   {
     "id": "6321c961-de3b-44a3-9725-62a0560135db",
@@ -652,6 +691,8 @@
         "id": "17a5d5f4-be57-4b67-8904-34cf170f2eff",
         "timestamp": 1724785064000
       }
-    ]
+    ],
+    "lat": 43.68066710794881,
+    "lng": -79.3364846086701
   }
 ]
