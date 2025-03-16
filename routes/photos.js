@@ -62,7 +62,13 @@ router.get("/:id", async (req, res) => {
   try {
     const cafe = await getCafeById(req.params.id);
     if (cafe) {
-      res.json(cafe);
+      let tags = Array.isArray(cafe.tags) ? cafe.tags : [];
+      if (tags.length === 1 && typeof tags[0] === 'string' && tags[0].includes(',')) {
+        tags = tags[0].split(',').map(t => t.trim());
+      }
+      const formattedCafe = { ...cafe, tags };
+      console.log(`🏪 Formatted Cafe ID ${cafe.id}:`, formattedCafe);
+      res.json(formattedCafe);
     } else {
       res.status(404).json({ error: "Cafe not found" });
     }
