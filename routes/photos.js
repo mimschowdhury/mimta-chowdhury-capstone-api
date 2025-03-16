@@ -50,33 +50,54 @@ async function addCommentToCafe(cafeId, name, comment) {
 //   }
 // });
 
+// router.get("/", async (req, res) => {
+//   try {
+//     const cafes = await getAllCafes();
+    
+//     // Log raw DB data
+//     console.log("🔥 Raw cafes from DB:", cafes);
+
+//     // Convert string tags to array
+//     const formattedCafes = cafes.map(cafe => {
+//       console.log(`🏪 Processing Cafe ID ${cafe.id}, Tags:`, cafe.tags);
+
+//       return {
+//         ...cafe,
+//         tags: cafe.tags ? cafe.tags.split(",").map(tag => tag.trim()) : []
+//       };
+//     });
+
+//     // Log formatted output
+//     console.log("📸 Formatted cafes:", formattedCafes);
+
+//     res.json(formattedCafes);
+//   } catch (error) {
+//     console.error("Failed to retrieve cafes:", error);
+//     res.status(500).json({ error: "Failed to retrieve cafes" });
+//   }
+// });
+
 router.get("/", async (req, res) => {
   try {
     const cafes = await getAllCafes();
-    
-    // Log raw DB data
     console.log("🔥 Raw cafes from DB:", cafes);
 
-    // Convert string tags to array
     const formattedCafes = cafes.map(cafe => {
-      console.log(`🏪 Processing Cafe ID ${cafe.id}, Tags:`, cafe.tags);
-
-      return {
-        ...cafe,
-        tags: cafe.tags ? cafe.tags.split(",").map(tag => tag.trim()) : []
-      };
+      // Split each tag string into individual tags
+      const tags = Array.isArray(cafe.tags)
+        ? cafe.tags.flatMap(tag => tag.split(",").map(t => t.trim()))
+        : [];
+      console.log(`🏪 Processing Cafe ID ${cafe.id}, Tags:`, tags);
+      return { ...cafe, tags };
     });
 
-    // Log formatted output
     console.log("📸 Formatted cafes:", formattedCafes);
-
     res.json(formattedCafes);
   } catch (error) {
-    console.error("Failed to retrieve cafes:", error);
-    res.status(500).json({ error: "Failed to retrieve cafes" });
+    console.error("Failed to retrieve cafes - Full error:", error.stack);
+    res.status(500).json({ error: "Failed to retrieve cafes", details: error.message });
   }
 });
-
 
 // 📸 Route: Get a single cafe by ID
 router.get("/:id", async (req, res) => {
@@ -96,7 +117,7 @@ router.get("/:id", async (req, res) => {
 // 💬 Route: Get comments for a specific cafe
 router.get("/:id/comments", async (req, res) => {
   try {
-    const comments = await getCommentsByCafeId(req.params.id);
+    const comments = await knex("comments").where({ photo_id: req.params.id }).select("*");
     res.json(comments);
   } catch (error) {
     console.error("Failed to retrieve comments:", error);
@@ -105,6 +126,7 @@ router.get("/:id/comments", async (req, res) => {
 });
 
 // 💬 Route: Add a new comment to a cafe
+// Add a comment to a cafe
 router.post("/:id/comments", async (req, res) => {
   try {
     const { name, comment } = req.body;
@@ -112,7 +134,14 @@ router.post("/:id/comments", async (req, res) => {
       return res.status(400).json({ error: "Invalid name or comment" });
     }
 
-    await addCommentToCafe(req.params.id, name, comment);
+    await knex("comments").insert({
+      id: uuidv4(),
+      photo_id: req.params.id,
+      name,
+      comment,
+      timestamp: new Date(),
+    });
+
     res.json({ message: "Comment added successfully" });
   } catch (error) {
     console.error("Failed to add comment:", error);

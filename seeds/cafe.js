@@ -3,6 +3,7 @@ export async function seed(knex) {
 
   await knex("cafe").insert([
   {
+    "id": "cf27cf96-0222-11f0-8248-841f0fee7eab",
     "photo": "http://localhost:8080/images/Photo-00.png",
     "photoDescription": "Cafe X Bica is where the art of coffee meets the soul of Toronto! This quirky gem offers a cozy space to sip on expertly crafted espresso drinks, each one packed with flavor and personality. Whether you're fueling up for a busy day or unwinding with friends, Cafe X Bica's welcoming vibe and delicious brews will make you feel right at home. From its funky decor to its top-notch coffee, this place has everything you need for a little pick-me-up, with a whole lot of flair!",
     "cafeFavourites": "Our favourites: Cortado, Iced Vanilla Latte, Matcha Latte & Raspberry Croissant.",
@@ -10,11 +11,12 @@ export async function seed(knex) {
     "likes": "160 Pears Ave",
     "googleRating": 4.2,
     "placeId": "ChIJCxYnGWI1K4gRQxjQ1cymRPs",
-    "tags": "Ambience, Best Coffee, Downtown Toronto",
+    "tags": JSON.stringify(["Ambience, Best Coffee, Downtown Toronto"]),
     "lat": 43.67533771333245,
     "lng": -79.39892262260815
   },
   {
+    "id": "cf27d284-0222-11f0-8248-841f0fee7eab",
     "photo": "http://localhost:8080/images/Photo-01.png",
     "photoDescription": "Cafe Belem is a slice of Lisbon right in the heart of Toronto! Step inside this charming spot, and you'll feel like you've been transported to the sun-soaked streets of Portugal. Known for its mouthwatering pastels de nata and rich, aromatic coffee, Cafe Belem is the perfect place to indulge in a little sweet escape.",
     "cafeFavourites": "Our favourites: Pastel de Nata, Bolo de Arroz, Pao de Deus",
@@ -22,11 +24,12 @@ export async function seed(knex) {
     "likes": "546 College St",
     "googleRating": 4.2,
     "placeId": "ChIJx9_31YA1K4gRAz-tgPfdyBY",
-    "tags": "Ambience, Best Baked Goods, Downtown Toronto",
+    "tags": JSON.stringify(["Ambience, Best Baked Goods, Downtown Toronto"]),
     "lat": 43.65604,
     "lng": -79.402059
   },
   {
+    "id": "cf27d32e-0222-11f0-8248-841f0fee7eab",
     "photo": "http://localhost:8080/images/Photo-02.png",
     "photoDescription": "Located in a historic area, this cafe offers a unique ambiance that combines history with modern coffee culture. Psst...Balzac's Coffee in the Distillery District is our absolute favourite location!",
     "cafeFavourites": "Our favourites: Parisian Mist, Salted Caramel Latte.",
@@ -34,11 +37,12 @@ export async function seed(knex) {
     "likes": "29 Powerhouse St",
     "googleRating": 4.7,
     "placeId": "ChIJ074pVxM0K4gRcVAf-1rGtJg",
-    "tags": "Ambience, Best Coffee, Downtown Toronto",
+    "tags": JSON.stringify(["Ambience, Best Coffee, Downtown Toronto"]),
     "lat": 43.669872786322664,
     "lng": -79.44764378117152
   },
   {
+    "id": "cf280696-0222-11f0-8248-841f0fee7eab",
     "photo": "http://localhost:8080/images/Photo-03.png",
     "photoDescription": "Page One Coffee & Bar is known for its unique blend of specialty coffee, lively bar energy and craft cocktails. Their specialty lies in offering a creative mix of drinks that cater to both coffee lovers and cocktail enthusiasts. Whether you're in the mood for a perfectly brewed espresso or a handcrafted cocktail, they have something to suit every taste. The cafe also offers delicious bites, making it a great place for a casual meet-up or a relaxing break.",
     "cafeFavourites": "Our favourites: Chai Latte, Avocado Toast",
@@ -46,11 +50,12 @@ export async function seed(knex) {
     "likes": "106 Mutual St Unit #8",
     "googleRating": 4.4,
     "placeId": "ChIJn1e27DXL1IkReA60T93m2Fw",
-    "tags": "Study Spot, Downtown Toronto",
+    "tags": JSON.stringify(["Study Spot, Downtown Toronto"]),
     "lat": 43.65821492780781,
     "lng": -79.37620968806982
   },
   {
+    "id": "cf280736-0222-11f0-8248-841f0fee7eab",
     "photo": "http://localhost:8080/images/Photo-04.png",
     "photoDescription": "Stae Cafe is where modern vibes meet cozy comfort. This gem in Markham is all about crafting the perfect cup of coffee, with rich, flavorful blends that keep you coming back for more. Whether you're enjoying a quiet moment with a latte or catching up with friends over their delicious pastries, Stae Cafe makes it easy to unwind. Plus, the sleek, minimalist decor adds to the laid-back yet chic atmosphere, making it the perfect spot to sip and relax.",
     "cafeFavourites": "Our favourites: Spanish Latte, Pistachio Matcha Latte, Steak Sandwich, Biscoff Basque Cheesecake.",
@@ -58,11 +63,12 @@ export async function seed(knex) {
     "likes": "222 Copper Creek Dr",
     "googleRating": 4.8,
     "placeId": "ChIJX1a3WWHX1IkRUUseCNzJqcM",
-    "tags": "Ambience, Best Baked Goods, Markham",
+    "tags": JSON.stringify(["Ambience, Best Baked Goods, Markham"]),
     "lat": 43.870217258427914,
     "lng": -79.2243450322387
   },
   {
+    "id": "cf280826-0222-11f0-8248-841f0fee7eab",
     "photo": "http://localhost:8080/images/Photo-05.png",
     "photoDescription": "This cozy spot is a sweet tooth's dream, with delicious pastries and baked goods that are as charming as its name. Whether you're craving a flaky croissant, a decadent slice of cake, or a freshly brewed coffee, Circles & Squares has you covered.",
     "cafeFavourites": "Our favourites: Almond Croissant, Maple Pecan Butter Tart, Spinach Feta Cheese Quiche, Mocha Latte",
@@ -70,11 +76,12 @@ export async function seed(knex) {
     "likes": "197 Bartley Dr",
     "googleRating": 4.5,
     "placeId": "ChIJadpqulDN1IkR2V3IbCphwhg",
-    "tags": "Ambience, Best Baked Goods, North York",
+    "tags": JSON.stringify(["Ambience, Best Baked Goods, North York"]),
     "lat": 43.72002282153777,
     "lng": -79.31268619043634
   },
   {
+    "id": "cf280880-0222-11f0-8248-841f0fee7eab",
     "photo": "http://localhost:8080/images/Photo-06.png",
     "photoDescription": "Edil's Coffee House is the perfect blend of warmth, flavor, and community. Nestled in Scarborough, this charming spot serves up delicious brews that make every sip feel like a hug in a cup. Whether you're popping in for your morning fix or settling in for a long afternoon of sipping and chatting, Edil's offers the perfect ambiance to do so. Their signature drinks and freshly baked treats make it the ultimate haven for coffee lovers looking to enjoy a peaceful moment or catch up with friends. Come for the coffee, stay for the vibe!",
     "cafeFavourites": "Our favourites: Tres Leches Iced Latte, Pastrami Sandwich, Cheesy Pesto Melt",
@@ -82,11 +89,12 @@ export async function seed(knex) {
     "likes": "1412 Kennedy Rd #1A",
     "googleRating": 4.3,
     "placeId": "ChIJg5JZV1DR1IkR74GCRFPONBE",
-    "tags": "Best Baked Goods, Study Spot, Scarborough",
+    "tags": JSON.stringify(["Best Baked Goods, Study Spot, Scarborough"]),
     "lat": 43.76343215178763,
     "lng": -79.28050714573617
   },
   {
+    "id": "cf280880-0222-11f0-8248-841f0fee9eab",
     "photo": "http://localhost:8080/images/Photo-07.png",
     "photoDescription": "True to its name, this cafe provides a library-like environment complemented by exceptional coffee.",
     "cafeFavourites": "Our favourites: Flat White",
@@ -94,11 +102,12 @@ export async function seed(knex) {
     "likes": "917 Queen St W",
     "googleRating": 4.8,
     "placeId": "ChIJCU1G3lU1K4gR8PO7sj2uAEM",
-    "tags": "Best Coffee, Downtown Toronto",
+    "tags": JSON.stringify(["Best Coffee, Downtown Toronto"]),
     "lat": 0.0,
     "lng": 0.0
   },
   {
+    "id": "cf280934-0222-11f0-8248-841f0fee7eab",
     "photo": "http://localhost:8080/images/Photo-08.png",
     "photoDescription": "Housed in historic buildings, Dineen's marble counters & red leather banquettes evoke old-world glamour, making it a favourite among professionals and tourists alike.",
     "cafeFavourites": "Our favourites: Carrot Crumble Muffin, Cortado, Blueberry Scone",
@@ -106,11 +115,12 @@ export async function seed(knex) {
     "likes": "1042 Gerrard St E",
     "googleRating": 4.6,
     "placeId": "ChIJ2ZbNN3_L1IkRnMYpmlQi7bA",
-    "tags": "Ambience, Downtown Toronto",
+    "tags": JSON.stringify(["Ambience, Downtown Toronto"]),
     "lat": 43.64558263518129,
     "lng": -79.41139328910359
   },
   {
+    "id": "cf28098e-0222-11f0-8248-841f0fee7eab",
     "photo": "http://localhost:8080/images/Photo-09.png",
     "photoDescription": "Tucked away in Toronto's charming Distillery District, Forget Me Not Coffee is the kind of spot that instantly feels like your new favorite hideaway. This cozy cafe is all about good vibes, great coffee, and even better company. Whether you're settling in for a productive study session or catching up with a friend, their bright, plant-filled space makes it easy to feel right at home. Sip on their expertly crafted lattes or treat yourself to one of their house-made pastries (trust us, the croissants are worth writing home about!). Bonus: it's dog-friendly, so feel free to bring along your furry study buddy!",
     "cafeFavourites": "Our favourites: Matcha Latte, Dalgona Iced Latte, Blueberry Scone",
@@ -118,11 +128,12 @@ export async function seed(knex) {
     "likes": "506 Adelaide St W",
     "googleRating": 4.6,
     "placeId": "ChIJZ220cN40K4gRq6iMSZrxhjE",
-    "tags": "Best Coffee, Downtown Toronto",
+    "tags": JSON.stringify(["Best Coffee, Downtown Toronto"]),
     "lat": 43.64608688737857,
     "lng": -79.39962787375873
   },
   {
+    "id": "cf2809de-0222-11f0-8248-841f0fee7eab",
     "photo": "http://localhost:8080/images/Photo-10.png",
     "photoDescription": "With ample seating and a commitment to quality, it's a favorite among freelancers and students.",
     "cafeFavourites": "Our favourites: Espresso, Flat White",
@@ -130,11 +141,12 @@ export async function seed(knex) {
     "likes": "50 Wagstaff Dr",
     "googleRating": 4.7,
     "placeId": "ChIJ84vitCzL1IkRDT5wnL5MaBs",
-    "tags": "Best Coffee, Downtown Toronto",
+    "tags": JSON.stringify(["Best Coffee, Downtown Toronto"]),
     "lat": 43.67464131237546,
     "lng": -79.3296588769553
   },
   {
+    "id": "cf280a24-0222-11f0-8248-841f0fee7eab",
     "photo": "http://localhost:8080/images/Photo-11.png",
     "photoDescription": "Named after the Swedish coffee break tradition, FIKA offers a tranquil escape with its minimalist design and delectable pastries.",
     "cafeFavourites": "Our favourites: Cardamom Latte, Swedish Cinnamon Bun, Fika Iced Latte",
@@ -142,11 +154,12 @@ export async function seed(knex) {
     "likes": "28 Kensington Ave",
     "googleRating": 4.6,
     "placeId": "ChIJs09aUcI0K4gR6phtG366G4g",
-    "tags": "Ambience, Best Baked Goods, Downtown Toronto",
+    "tags": JSON.stringify(["Ambience, Best Baked Goods, Downtown Toronto"]),
     "lat": 43.65393447508275,
     "lng": -79.39945577037243
   },
   {
+    "id": "f31d524c-7ce8-446b-a4db-107cb089e4b4",
     "photo": "http://localhost:8080/images/Photo-12.png",
     "photoDescription": "An old, run down, building sitting in the middle of a field.",
     "cafeFavourites": "Our favourites: Beetroot Latte, Ginger Cookie, Almond Croissant",
@@ -154,11 +167,12 @@ export async function seed(knex) {
     "likes": "479 Broadview Ave",
     "googleRating": 4.6,
     "placeId": "ChIJW6Qpo2bL1IkRwOQK_ztXNYk",
-    "tags": "Ambience, Best Baked Goods, East York",
+    "tags": JSON.stringify(["Ambience, Best Baked Goods, East York"]),
     "lat": 43.670795879283446,
     "lng": -79.35214748460038
   },
   {
+    "id": "c432adb0-df2d-4f6b-83d0-bfda8d99fca5",
     "photo": "http://localhost:8080/images/Photo-13.png",
     "photoDescription": "Step into the cozy charm of Maman, where rustic French vibes meet the heart of Toronto. Think whitewashed brick walls, dreamy blue accents, and the warm aroma of freshly baked pastries wafting through the air. Whether you're here for their famous nutty chocolate chip cookie (yes, that one) or sipping a latte out of their signature floral cups, Maman feels like your stylish best friend's kitchen in the South of France.",
     "cafeFavourites": "Our favourites: Blueberry Lavender Loaf Cake, Nutty Chocolate Chip Cookie, Oat Flat White",
@@ -166,11 +180,12 @@ export async function seed(knex) {
     "likes": "100 King St W",
     "googleRating": 4.4,
     "placeId": "ChIJ9y-dotI0K4gRaEbGQDdJkVU",
-    "tags": "Ambience, Downtown Toronto",
+    "tags": JSON.stringify(["Ambience, Downtown Toronto"]),
     "lat": 43.64889538732608,
     "lng": -79.38217053731451
   },
   {
+    "id": "e966674f-58d5-442e-8f42-5902e5ee6571",
     "photo": "http://localhost:8080/images/Photo-14.png",
     "photoDescription": "Tucked away like a little secret in Toronto's Upper Beaches, Found Coffee is the kind of spot you'll wish you discovered sooner. Bright, welcoming, and effortlessly cool, it's a cozy space where locals gather for good vibes and even better brews.",
     "cafeFavourites": "Our favourites: Iced Pistachio Latte, Avocado Toast, Matcha Latte.",
@@ -178,11 +193,12 @@ export async function seed(knex) {
     "likes": "324 College St",
     "googleRating": 4.8,
     "placeId": "ChIJRRcM18E0K4gRKwRR6ALuPX4",
-    "tags": "Best Coffee, Downtown Toronto",
+    "tags": JSON.stringify(["Best Coffee, Downtown Toronto"]),
     "lat": 43.657799950292926,
     "lng": -79.40149011793913
   },
   {
+    "id": "2ce85c21-4a1e-4b05-b147-8c4957706d3e",
     "photo": "http://localhost:8080/images/Photo-15.png",
     "photoDescription": "Cafe 23 is a little slice of Paris in the heart of Toronto! With its charming terrace that feels like an escape from the hustle and bustle of the city, it's the perfect spot to unwind. The serene ambiance transports you to a peaceful haven, and the French-inspired decor gives the cafe an unmistakable European flair.",
     "cafeFavourites": "Our favourites: Iced Vanilla Latte, Homemade Banana Bread, Butter Tart",
@@ -190,11 +206,12 @@ export async function seed(knex) {
     "likes": "728 Queen St W",
     "googleRating": 4.5,
     "placeId": "ChIJK4FWWFk1K4gR9VI7gU6tc_A",
-    "tags": "Study Spot, Downtown Toronto",
+    "tags": JSON.stringify(["Study Spot, Downtown Toronto"]),
     "lat": 0.0,
     "lng": 0.0
   },
   {
+    "id": "d8300fda-61f8-42da-8c21-212f01a48b96",
     "photo": "http://localhost:8080/images/Photo-16.png",
     "photoDescription": "Encouraging community interaction, Dark Horse's long communal tables are perfect for meeting new people or collaborating on projects. This Toronto staple is all about expertly crafted espresso drinks, minimalistic interiors, and big windows that flood the space with light - perfect for people-watching or knocking out some work.",
     "cafeFavourites": "Our favourites: Iced Vanilla Latte, Chai Latte, Oat Milk Latte",
@@ -202,11 +219,12 @@ export async function seed(knex) {
     "likes": "230 Richmond St W",
     "googleRating": 4.7,
     "placeId": "ChIJUUaSqds0K4gRPpJ2lUGBfSU",
-    "tags": "Best Coffee, Study Spot, Downtown Toronto",
+    "tags": JSON.stringify(["Best Coffee, Study Spot, Downtown Toronto"]),
     "lat": 43.64654508512817,
     "lng": -79.40859812720747
   },
   {
+    "id": "c2e3a895-eaf0-42a8-8f9b-4722300ba847",
     "photo": "http://localhost:8080/images/Photo-17.png",
     "photoDescription": "Step into De Mello, and you're instantly greeted by a burst of color, quirky art, and the aroma of seriously good coffee. Known for their playful energy and expertly roasted beans, De Mello makes every coffee experience feel like a little adventure. ",
     "cafeFavourites": "Our favourites: Honey Cinnamon Latte, Blueberry Latte, Espresso",
@@ -214,11 +232,12 @@ export async function seed(knex) {
     "likes": "8 Spadina Ave/The Well",
     "googleRating": 4.2,
     "placeId": "ChIJBfYqyK81K4gR8yZzL0qQTqQ",
-    "tags": "Best Coffee, Study Spot, Downtown Toronto",
+    "tags": JSON.stringify(["Best Coffee, Study Spot, Downtown Toronto"]),
     "lat": 43.64330812193805,
     "lng": -79.39412510949266
   },
   {
+    "id": "aae2a3f0-24d0-4410-bbd7-d63cfbe1c671",
     "photo": "http://localhost:8080/images/Photo-18.png",
     "photoDescription": "Tucked away in a charming corner of the city, Lano Coffee is one of those hidden gems you'll want to keep all to yourself - but it's too good not to share. Minimalist design, bright airy vibes, and thoughtfully crafted coffee make Lano the perfect spot to sip, relax, and reset.",
     "cafeFavourites": "Our favourites: Basque Cheesecake, Spanish Latte.",
@@ -226,11 +245,12 @@ export async function seed(knex) {
     "likes": "181 Wellington St W",
     "googleRating": 4.8,
     "placeId": "ChIJLXCnQgA1K4gRK4wFyD3Ns4I",
-    "tags": "Ambience, Downtown Toronto",
+    "tags": JSON.stringify(["Ambience, Downtown Toronto"]),
     "lat": 43.64556850790877,
     "lng": -79.38626485419022
   },
   {
+    "id": "4731eeb7-64c7-4d56-933f-e3c17be293a8",
     "photo": "http://localhost:8080/images/Photo-19.png",
     "photoDescription": "Stylish, sleek, and effortlessly cool - 10 DEAN is a cafe that knows how to make an impression. Located in Downtown Toronto, this coffee spot blends Scandinavian minimalism with warm, welcoming vibes. It's the kind of place where you'll want to linger over your latte, whether you're deep in thought or deep in conversation.",
     "cafeFavourites": "Our favourites: Strawberry Matcha Latte, Ube Iced Latte, Cookie Butter Latte.",
@@ -238,11 +258,12 @@ export async function seed(knex) {
     "likes": "484 Spadina Ave",
     "googleRating": 4.7,
     "placeId": "ChIJYVimWOw1K4gRwqk-z0SZ7yg",
-    "tags": "Study Spot, Downtown Toronto",
+    "tags": JSON.stringify(["Study Spot, Downtown Toronto"]),
     "lat": 43.65847458665146,
     "lng": -79.39992133276742
   },
   {
+    "id": "df129bd3-452b-41ca-bc59-bc9b1c606e09",
     "photo": "http://localhost:8080/images/Photo-20.png",
     "photoDescription": "Minimalist design meets matcha dreams at Cafe N One, a sleek and calming space perfect for unwinding or catching up on work. Known for its modern aesthetic, clean lines, and neutral tones, this spot is all about good vibes and great drinks. Whether you're a matcha enthusiast or just love a pretty latte, this place checks all the boxes.",
     "cafeFavourites": "Our favourites: Strawberry Matcha Latte, Iced Yuzu Berry Matcha Latte, Souffle Pancakes, Smoked Salmon Croissant",
@@ -250,11 +271,12 @@ export async function seed(knex) {
     "likes": "5600 Yonge Street 2/F",
     "googleRating": 4.4,
     "placeId": "ChIJW1cqGRQtK4gRuDyJbat5VH0",
-    "tags": "Best Baked Goods, Study Spot, North York",
+    "tags": JSON.stringify(["Best Baked Goods, Study Spot, North York"]),
     "lat": 43.77964625807779,
     "lng": -79.41431336448332
   },
   {
+    "id": "6321c961-de3b-44a3-9725-62a0560135db",
     "photo": "http://localhost:8080/images/Photo-21.png",
     "photoDescription": "Nestled in the eclectic Kensington Market, Pamenar offers a laid-back vibe, perfect for people-watching while sipping on a cappuccino.",
     "cafeFavourites": "Our favourites: Americano, Chai Latte",
@@ -262,11 +284,12 @@ export async function seed(knex) {
     "likes": "307 Augusta Ave",
     "googleRating": 4.4,
     "placeId": "ChIJ2zl04sE0K4gR-44Du4C98TM",
-    "tags": "Ambience, Downtown Toronto",
+    "tags": JSON.stringify(["Ambience, Downtown Toronto"]),
     "lat": 43.65683095267304,
     "lng": -79.40209785975016
   },
   {
+    "id": "13307e72-f159-4a2f-ac09-f78bf3c7ce22",
     "photo": "http://localhost:8080/images/Photo-22.png",
     "photoDescription": "This light-filled cafe offers innovative latte flavors and a welcoming atmosphere, making it a favorite among locals.",
     "cafeFavourites": "Our favourites: Affogato, Avocado Toast, Breakfast Sandwich.",
@@ -274,11 +297,12 @@ export async function seed(knex) {
     "likes": "70 Adelaide St E",
     "googleRating": 4.5,
     "placeId": "ChIJ2yDr0TPL1IkRDqPYwTEDKOE",
-    "tags": "Ambience, Best Baked Goods, Downtown Toronto",
+    "tags": JSON.stringify(["Ambience, Best Baked Goods, Downtown Toronto"]),
     "lat": 43.651379114462095,
     "lng": -79.37495026531117
   },
   {
+    "id": "94e05778-bcdb-48fa-b140-ef398b48e3c1",
     "photo": "http://localhost:8080/images/Photo-23.png",
     "photoDescription": "A blend of caf\u00e9 and bar, offering a relaxed environment perfect for diving into a book or working on a project.",
     "cafeFavourites": "Our favourites: Huevos Rancheros, Cafe Mocha",
@@ -286,7 +310,7 @@ export async function seed(knex) {
     "likes": "966 Danforth Ave, Toronto, ON M4J 1M1",
     "googleRating": 4.6,
     "placeId": "ChIJ80rdAIfM1IkRwiKBeqPGgIA",
-    "tags": "Study Spot, East York",
+    "tags": JSON.stringify(["Study Spot, East York"]),
     "lat": 43.68066710794881,
     "lng": -79.3364846086701
   }

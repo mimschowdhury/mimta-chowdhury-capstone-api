@@ -5,7 +5,7 @@
 export function up(knex) {
     return knex.schema
       .createTable("cafe", (table) => {
-        table.increments("id").primary();
+        table.uuid("id").primary().defaultTo(knex.raw("(UUID())"));
         table.string("photo").notNullable();
         table.text("photoDescription").notNullable();
         table.string("cafeFavourites").notNullable();
