@@ -13,7 +13,7 @@ export function up(knex) {
         table.string("likes").notNullable();
         table.float("googleRating").notNullable();
         table.string("placeId").notNullable();
-        table.string("tags").notNullable();
+        table.json("tags").notNullable(); //store as JSON array
         table.float("lat").notNullable();
         table.float("lng").notNullable();
       })

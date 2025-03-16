@@ -1,95 +1,123 @@
 import express from "express";
-import fs from "fs";
-import { v4 as uuidv4 } from 'uuid';
+import initKnex from "knex";
+import configuration from "../knexfile.js";
+const knex = initKnex(configuration);
+import { v4 as uuidv4 } from "uuid";
 
 const router = express.Router();
 
-function readPhotos() {
-    try {
-        const photosData = fs.readFileSync("./data/photos.json");
-        return JSON.parse(photosData);
-    } catch (error) {
-        console.error("Error reading photos file:", error);
-        return [];
-    }
+// 📸 Get all cafes (previously photos)
+async function getAllCafes() {
+  return await knex("cafe").select("*");
 }
 
-function getPhotoById(id) {
-    try {
-        const photos = readPhotos();
-        return photos.find((photo) => photo.id === id);
-    } catch (error) {
-        console.error("Error fetching photo by ID:", error);
-        return null;
-    }
+// 📸 Get a single cafe by ID
+async function getCafeById(id) {
+  return await knex("cafe").where({ id }).first();
 }
 
-router.get("/photos", (req, res) => {
-    try {
-        const photos = readPhotos();
-        res.json(photos);
-    } catch (error) {
-        res.status(500).json({ error: "Failed to retrieve photos" });
-    }
+// 💬 Get comments for a specific cafe
+async function getCommentsByCafeId(cafeId) {
+  return await knex("comments").where({ photo_id: cafeId }).select("*");
+}
+
+// 💬 Add a comment to a cafe
+async function addCommentToCafe(cafeId, name, comment) {
+  return await knex("comments").insert({
+    id: uuidv4(),
+    photo_id: cafeId,
+    name,
+    comment,
+    timestamp: new Date(),
+  });
+}
+
+// In photos.js route
+// router.get("/", async (req, res) => {
+//   try {
+//     const cafes = await getAllCafes();
+    
+//     // Convert string tags to array
+//     const formattedCafes = cafes.map(cafe => ({
+//       ...cafe,
+//       tags: Array.isArray(cafe.tags) ? cafe.tags : cafe.tags.split(',')
+//     }));
+
+//     res.json(formattedCafes);
+//   } catch (error) {
+//     console.error("Failed to retrieve cafes:", error);
+//     res.status(500).json({ error: "Failed to retrieve cafes" });
+//   }
+// });
+
+router.get("/", async (req, res) => {
+  try {
+    const cafes = await getAllCafes();
+    
+    // Log raw DB data
+    console.log("🔥 Raw cafes from DB:", cafes);
+
+    // Convert string tags to array
+    const formattedCafes = cafes.map(cafe => {
+      console.log(`🏪 Processing Cafe ID ${cafe.id}, Tags:`, cafe.tags);
+
+      return {
+        ...cafe,
+        tags: cafe.tags ? cafe.tags.split(",").map(tag => tag.trim()) : []
+      };
+    });
+
+    // Log formatted output
+    console.log("📸 Formatted cafes:", formattedCafes);
+
+    res.json(formattedCafes);
+  } catch (error) {
+    console.error("Failed to retrieve cafes:", error);
+    res.status(500).json({ error: "Failed to retrieve cafes" });
+  }
 });
 
-router.get("/photos/:id", (req, res) => {
-    try {
-        const id = req.params.id;
-        const photo = getPhotoById(id);
-        if (photo) {
-            res.json(photo);
-        } else {
-            res.status(404).json({ error: "Photo not found" });
-        }
-    } catch (error) {
-        res.status(500).json({ error: "Failed to retrieve photo" });
+
+// 📸 Route: Get a single cafe by ID
+router.get("/:id", async (req, res) => {
+  try {
+    const cafe = await getCafeById(req.params.id);
+    if (cafe) {
+      res.json(cafe);
+    } else {
+      res.status(404).json({ error: "Cafe not found" });
     }
+  } catch (error) {
+    console.error("Failed to retrieve cafe:", error);
+    res.status(500).json({ error: "Failed to retrieve cafe" });
+  }
 });
 
-router.get("/photos/:id/comments", (req, res) => {
-    try {
-        const id = req.params.id;
-        const photo = getPhotoById(id);
-        if (photo) {
-            res.json(photo.comments);
-        } else {
-            res.status(404).json({ error: "Photo not found" });
-        }
-    } catch (error) {
-        res.status(500).json({ error: "Failed to retrieve comments" });
-    }
+// 💬 Route: Get comments for a specific cafe
+router.get("/:id/comments", async (req, res) => {
+  try {
+    const comments = await getCommentsByCafeId(req.params.id);
+    res.json(comments);
+  } catch (error) {
+    console.error("Failed to retrieve comments:", error);
+    res.status(500).json({ error: "Failed to retrieve comments" });
+  }
 });
 
-router.post("/photos/:id/comments", (req, res) => {
-    try {
-        const id = req.params.id;
-        const { name, comment } = req.body;
-        const photos = readPhotos();
-
-        if (!name || !comment) {
-            return res.status(400).json({ error: "Invalid name or comment" });
-        }
-
-        const newComment = {
-            id: uuidv4(),
-            name,
-            comment,
-            timestamp: Date.now(),
-        };
-
-        const photo = photos.find((photo) => photo.id === id);
-
-        if (photo) {
-            photo.comments.push(newComment);
-            fs.writeFileSync("./data/photos.json", JSON.stringify(photos, null, 2));
-            res.json(newComment);
-        } else {
-            res.status(404).json({ error: "Photo not found" });
-        }
-    } catch (error) {
-        res.status(500).json({ error: "Failed to add comment" });
+// 💬 Route: Add a new comment to a cafe
+router.post("/:id/comments", async (req, res) => {
+  try {
+    const { name, comment } = req.body;
+    if (!name || !comment) {
+      return res.status(400).json({ error: "Invalid name or comment" });
     }
+
+    await addCommentToCafe(req.params.id, name, comment);
+    res.json({ message: "Comment added successfully" });
+  } catch (error) {
+    console.error("Failed to add comment:", error);
+    res.status(500).json({ error: "Failed to add comment" });
+  }
 });
 
 export default router;
