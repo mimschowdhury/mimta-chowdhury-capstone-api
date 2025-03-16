@@ -6,9 +6,11 @@ import { v4 as uuidv4 } from "uuid";
 
 const router = express.Router();
 
-// 📸 Get all cafes (previously photos)
+// 📸 Get all cafes
 async function getAllCafes() {
-  return await knex("cafe").select("*");
+  return await knex("cafe")
+    .select("*")
+    .orderBy("photographer", "asc"); // Change "photographer" to the column you want to order by
 }
 
 // 📸 Get a single cafe by ID
@@ -32,51 +34,7 @@ async function addCommentToCafe(cafeId, name, comment) {
   });
 }
 
-// In photos.js route
-// router.get("/", async (req, res) => {
-//   try {
-//     const cafes = await getAllCafes();
-    
-//     // Convert string tags to array
-//     const formattedCafes = cafes.map(cafe => ({
-//       ...cafe,
-//       tags: Array.isArray(cafe.tags) ? cafe.tags : cafe.tags.split(',')
-//     }));
-
-//     res.json(formattedCafes);
-//   } catch (error) {
-//     console.error("Failed to retrieve cafes:", error);
-//     res.status(500).json({ error: "Failed to retrieve cafes" });
-//   }
-// });
-
-// router.get("/", async (req, res) => {
-//   try {
-//     const cafes = await getAllCafes();
-    
-//     // Log raw DB data
-//     console.log("🔥 Raw cafes from DB:", cafes);
-
-//     // Convert string tags to array
-//     const formattedCafes = cafes.map(cafe => {
-//       console.log(`🏪 Processing Cafe ID ${cafe.id}, Tags:`, cafe.tags);
-
-//       return {
-//         ...cafe,
-//         tags: cafe.tags ? cafe.tags.split(",").map(tag => tag.trim()) : []
-//       };
-//     });
-
-//     // Log formatted output
-//     console.log("📸 Formatted cafes:", formattedCafes);
-
-//     res.json(formattedCafes);
-//   } catch (error) {
-//     console.error("Failed to retrieve cafes:", error);
-//     res.status(500).json({ error: "Failed to retrieve cafes" });
-//   }
-// });
-
+// 📸 Route: Get all cafes
 router.get("/", async (req, res) => {
   try {
     const cafes = await getAllCafes();
