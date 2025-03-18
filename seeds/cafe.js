@@ -103,8 +103,8 @@ export async function seed(knex) {
     "googleRating": 4.8,
     "placeId": "ChIJCU1G3lU1K4gR8PO7sj2uAEM",
     "tags": JSON.stringify(["Best Coffee, Downtown Toronto"]),
-    "lat": 0.0,
-    "lng": 0.0
+    "lat": 43.64556322610286,
+    "lng": -79.41145766246873
   },
   {
     "id": "cf280934-0222-11f0-8248-841f0fee7eab",
@@ -207,8 +207,8 @@ export async function seed(knex) {
     "googleRating": 4.5,
     "placeId": "ChIJK4FWWFk1K4gR9VI7gU6tc_A",
     "tags": JSON.stringify(["Study Spot, Downtown Toronto"]),
-    "lat": 0.0,
-    "lng": 0.0
+    "lat": 43.646416987116325,
+    "lng": -79.40849083918278
   },
   {
     "id": "d8300fda-61f8-42da-8c21-212f01a48b96",
