@@ -461,7 +461,7 @@ export async function seed(knex) {
     "id": "f7b2c6d9-3a5e-47d8-8f1c-65e91db4e912",
     "photo": "http://localhost:8080/images/Photo-35.png",
     "photoDescription": "At AM Coffee Studio, your morning pick-me-up comes with a side of wellness. This unique café-meets-studio in Toronto blends expertly crafted espresso and teas with a mindful, laid-back atmosphere. Whether you’re fueling up with a velvety matcha latte, savoring their avocado toast, or indulging in a freshly baked pastry, every bite and sip feels like a little self-care moment.",
-    "cafeFavourites": "Everything Bagel with Beet Rose, Avocado Toast, Iced Latte",
+    "cafeFavourites": "Our favourites: Everything Bagel with Beet Rose, Avocado Toast, Iced Latte",
     "photographer": "AM Coffee Studio",
     "likes": "2233 Dundas St W", 
     "googleRating": 4.8,
@@ -474,7 +474,7 @@ export async function seed(knex) {
     "id": "a9f4d3c2-6b8e-4f5a-91d7-2c3e7e8b9f10",
     "photo": "http://localhost:8080/images/Photo-36.png",
     "photoDescription": "5s Café is a hidden gem where precision meets passion. Inspired by the “5S” Japanese philosophy of efficiency and simplicity, this cozy spot serves up expertly crafted espresso drinks, matcha lattes, and picture-perfect pastries.",
-    "cafeFavourites": "Saffron Cake, Chai Latte, Walnut & Cheese Scone",
+    "cafeFavourites": "Our favourites: Saffron Cake, Chai Latte, Walnut & Cheese Scone",
     "photographer": "5s Cafe",
     "likes": "6 Denison Ave", 
     "googleRating": 5.0,
@@ -482,6 +482,19 @@ export async function seed(knex) {
     "tags": JSON.stringify(["Best Baked Goods, Downtown Toronto"]),
     "lat": 43.64825148383349,
     "lng": -79.40038122090677
+  },
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174000",
+    "photo": "http://localhost:8080/images/Photo-37.png",
+    "photoDescription": "Sam James Coffee Bar, affectionately known as SJCB, is a cornerstone of Toronto’s specialty coffee scene since its establishment in 2009. With four downtown locations, SJCB is celebrated for its minimalist approach, focusing on delivering exceptional coffee without any gimmicks. Their menu is straightforward, featuring expertly crafted drip coffee, espresso drinks, lattes, and teas. Each beverage is meticulously prepared, reflecting their commitment to quality and flavour.",
+    "cafeFavourites": "Our favourites: Espresso, Iced Chai Latte, Flat White",
+    "photographer": "Sam James Coffee Bar",
+    "likes": "141 Ossington Ave", 
+    "googleRating": 4.6,
+    "placeId": "ChIJRYla5nU1K4gRtIXN1gBW7ok",
+    "tags": JSON.stringify(["Best Coffee, Downtown Toronto"]),
+    "lat": 43.64759361408703,
+    "lng": -79.41906930174636
   }
 ]);
 };
