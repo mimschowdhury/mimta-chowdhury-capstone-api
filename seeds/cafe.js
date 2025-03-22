@@ -37,7 +37,7 @@ export async function seed(knex) {
     "likes": "29 Powerhouse St",
     "googleRating": 4.7,
     "placeId": "ChIJ074pVxM0K4gRcVAf-1rGtJg",
-    "tags": JSON.stringify(["Ambience, Best Coffee, Downtown Toronto"]),
+    "tags": JSON.stringify(["Ambience, Best Coffee, West End Toronto"]),
     "lat": 43.669872786322664,
     "lng": -79.44764378117152
   },
@@ -141,7 +141,7 @@ export async function seed(knex) {
     "likes": "50 Wagstaff Dr",
     "googleRating": 4.7,
     "placeId": "ChIJ84vitCzL1IkRDT5wnL5MaBs",
-    "tags": JSON.stringify(["Best Coffee, Downtown Toronto"]),
+    "tags": JSON.stringify(["Best Coffee, North York"]),
     "lat": 43.67464131237546,
     "lng": -79.3296588769553
   },
@@ -167,7 +167,7 @@ export async function seed(knex) {
     "likes": "479 Broadview Ave",
     "googleRating": 4.6,
     "placeId": "ChIJW6Qpo2bL1IkRwOQK_ztXNYk",
-    "tags": JSON.stringify(["Ambience, Best Baked Goods, Brunch, East York"]),
+    "tags": JSON.stringify(["Ambience, Best Baked Goods, Brunch, Study Spot, East York"]),
     "lat": 43.670795879283446,
     "lng": -79.35214748460038
   },
@@ -466,7 +466,7 @@ export async function seed(knex) {
     "likes": "2233 Dundas St W", 
     "googleRating": 4.8,
     "placeId": "ChIJyU73U6M1K4gRcy67A8tfHDE",
-    "tags": JSON.stringify(["Ambience, Best Baked Goods, Downtown Toronto"]),
+    "tags": JSON.stringify(["Ambience, Best Baked Goods, West End Toronto"]),
     "lat": 43.6542241719204,
     "lng": -79.45204301954824
   },
@@ -492,9 +492,75 @@ export async function seed(knex) {
     "likes": "141 Ossington Ave", 
     "googleRating": 4.6,
     "placeId": "ChIJRYla5nU1K4gRtIXN1gBW7ok",
-    "tags": JSON.stringify(["Best Coffee, Downtown Toronto"]),
+    "tags": JSON.stringify(["Best Coffee, West End Toronto"]),
     "lat": 43.64759361408703,
     "lng": -79.41906930174636
+  },
+  {
+    "id": "b7f4d8e9-3a12-457c-92b6-5d8e6a4c9f77",
+    "photo": "http://localhost:8080/images/Photo-38.png",
+    "photoDescription": "Lazy Barista is the ultimate spot for those who believe good coffee should be savored, not rushed. With a laid-back vibe, minimalist decor, and an expertly curated coffee menu, this café is a dream for espresso purists and casual sippers alike. Whether you’re unwinding with a book or catching up with a friend, Lazy Barista serves up rich flavors, smooth pours, and just the right amount of caffeine-fueled inspiration.",
+    "cafeFavourites": "Our favourites: Lazy B Special, Honey Cardamom Latte",
+    "photographer": "Lazy Barista",
+    "likes": "157 Queens Quay E", 
+    "googleRating": 4.6,
+    "placeId": "ChIJb5qMb-vL1IkRjgzb_yTorl4",
+    "tags": JSON.stringify(["Ambience, Downtown Toronto"]),
+    "lat": 43.644542756107676,
+    "lng": -79.36662935997956
+  },
+  {
+    "id": "e3a9f12c-41cd-4d5d-b089-fb34185a2201",
+    "photo": "http://localhost:8080/images/Photo-39.png",
+    "photoDescription": "Step into CocoaLatte, where chocolate dreams meet coffee perfection! Whether you’re a mocha enthusiast or a dedicated hot cocoa lover, this cozy café brings a warm, indulgent twist to your typical coffee run. With every sip, you’re transported to a rich world of velvety cocoa blends, expertly brewed espresso, and treats that make your sweet tooth sing.",
+    "cafeFavourites": "Our favourites: Signature Hot Chocolate, Mocha Latte, CocoaGlaze Doughnut, Nutella Croissant",
+    "photographer": "Cocoalatte",
+    "likes": "671 St Clair Ave W", 
+    "googleRating": 4.7,
+    "placeId": "ChIJb5qMb-vL1IkRjgzb_yTorl4",
+    "tags": JSON.stringify(["Best Baked Goods, West End Toronto"]),
+    "lat": 43.681782976013,
+    "lng": -79.42457467676448
+  },
+  {
+    "id": "f5d1b072-9156-4a6c-986e-61db66b8230b",
+    "photo": "http://localhost:8080/images/Photo-40.png",
+    "photoDescription": "Hamers Coffee – your cozy corner for unbeatable brews and freshly baked delights! Whether you’re catching up with friends or lost in a good book, this café offers the perfect vibe. Their coffee is smooth, and the pastries? Simply to die for. If you’re ever in the area, don’t miss out on their signature cinnamon rolls and creamy lattes.",
+    "cafeFavourites": "Our favourites: Cinnamon Rolls, Flat White, Breakfast Sandwiches, Iced Caramel Latte",
+    "photographer": "Hamers Coffee",
+    "likes": "870 Dundas St W", 
+    "googleRating": 4.6,
+    "placeId": "ChIJ3acCD0c1K4gRNj_HIjrQHN4",
+    "tags": JSON.stringify(["Best Coffee, West End Toronto"]),
+    "lat": 43.65293122143443,
+    "lng": -79.4057438764003
+  },
+  {
+    "id": "2c8d4f7b-e46d-4d92-a1d5-ccba3654ddef",
+    "photo": "http://localhost:8080/images/Photo-41.png",
+    "photoDescription": "Caked Coffee - Where coffee and cake collide in perfect harmony! This cozy, two-in-one bakery and coffee shop is the go-to spot for anyone craving delicious vegan desserts alongside a cup of expertly brewed coffee. Whether you’re here for the indulgent cakes or the unique blend of beverages, Caked Coffee will satisfy your sweet tooth while giving you the perfect vibe to chill or work.",
+    "cafeFavourites": "Our favourites: Cake Jars, Iced Dirty Chai Latte, Matcha Cupcake, Cinnamon Roll, Strawberry Shortcake Cupcake",
+    "photographer": "Caked Coffee",
+    "likes": "1651 Bloor St W", 
+    "googleRating": 4.8,
+    "placeId": "ChIJ-ydFKyo1K4gRip-2aaSDKG0",
+    "tags": JSON.stringify(["Best Baked Goods, West End Toronto"]),
+    "lat": 43.658145352887935,
+    "lng": -79.44489754474644
+  }
+  ,
+  {
+    "id": "b8f5a9d3-47c1-42e6-88b2-5c93e6a1e8f1",
+    "photo": "http://localhost:8080/images/Photo-42.png",
+    "photoDescription": "More than just a coffee shop, Creeds Coffee Bar is where great espresso meets urban chic. Tucked in a stylish yet cozy setting, it’s the kind of place where coffee lovers, remote workers, and pastry aficionados come together. Whether you’re sipping on a velvety flat white, indulging in a buttery croissant, or just soaking in the relaxed atmosphere, Creeds delivers on all fronts. Bonus? There’s even a dry-cleaning service in the back—because why not grab a latte while getting your wardrobe refreshed?",
+    "cafeFavourites": "Our favourites: Avocado Toast, Iced Latte, Matcha Latte, Cold Brew",
+    "photographer": "Creeds Coffee Bar",
+    "likes": "450 Dupont St", 
+    "googleRating": 4.1,
+    "placeId": "ChIJL4i0pps0K4gR0V5ZGcjETFI",
+    "tags": JSON.stringify(["Ambience, Study Spot, Downtown Toronto"]),
+    "lat": 43.673686771169116,
+    "lng": -79.41318384373508
   }
 ]);
 };
