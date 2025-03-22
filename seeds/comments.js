@@ -29,52 +29,45 @@ export async function seed(knex) {
     {
         "id": "c87786a9-4157-4025-b809-65c7dcff2017",
         "photo_id": "cf27d284-0222-11f0-8248-841f0fee7eab",
-        "name": "mimta",
-        "comment": "loves new york!",
+        "name": "Mimta",
+        "comment": "The pastel de nata here is absolutely divine! Perfectly flaky and creamy.",
         "timestamp": new Date(1740695377676)
     },
     {
         "id": "d37b5527-fa5e-42c2-9ca4-31a67542541d",
         "photo_id": "cf27d284-0222-11f0-8248-841f0fee7eab",
-        "name": "Glen Sims",
-        "comment": "The photographer did a great job with this one.",
+        "name": "Maya",
+        "comment": "The atmosphere is cozy, and the staff is super friendly. A great place to unwind!",
         "timestamp": new Date(1724785064000)
     },
     {
         "id": "38222f3f-0ba7-4f2c-a864-9addf14c5982",
         "photo_id": "cf27d284-0222-11f0-8248-841f0fee7eab",
-        "name": "mimta",
-        "comment": "comment",
+        "name": "Laila",
+        "comment": "A hidden gem! The ambiance makes you feel like you're in Lisbon.",
         "timestamp": new Date(1740774534695)
     },
     //balzacs coffee
     {
         "id": "aac99546-2b08-4527-afaf-e000442868ee",
         "photo_id": "cf27d32e-0222-11f0-8248-841f0fee7eab",
-        "name": "Alex Mitchell",
-        "comment": "The color palette in this photo is absolutely mesmerizing.",
+        "name": "Alex",
+        "comment": "Balzac’s has such a warm and inviting atmosphere. Perfect spot for a coffee break!",
         "timestamp": new Date(1724785064000)
     },
     {
         "id": "08160c97-5536-4053-be2f-039cb7373552",
         "photo_id": "cf27d32e-0222-11f0-8248-841f0fee7eab",
-        "name": "Elena Rossi",
-        "comment": "Stunning shot! The colors and lighting are perfect.",
+        "name": "Zoya",
+        "comment": "Tried the maple latte—so Canadian and so delicious!",
         "timestamp": new Date(1724957864000)
     },
     {
         "id": "efbf1aa1-0244-4570-a677-72d7691b008c",
         "photo_id": "cf27d32e-0222-11f0-8248-841f0fee7eab",
-        "name": "Casey Schmidt",
-        "comment": "This picture perfectly captures the essence of the city.",
+        "name": "Em",
+        "comment": "Balzac’s is hands down one of the best cafes in the city! The atmosphere is cozy, with a mix of rustic charm and European-inspired aesthetics. Their coffee is always brewed to perfection, and you can really taste the quality. I love how spacious the seating is, making it a great spot to work or relax. Their almond croissant is a must-try—flaky, buttery, and pairs perfectly with a cappuccino. Service can be a bit slow during peak hours, but it's always worth the wait!",
         "timestamp": new Date(1725130664000)
-    },
-    {
-        "id": "67a86609-3bff-4c5a-9abd-6fc43acf1d59",
-        "photo_id": "cf27d32e-0222-11f0-8248-841f0fee7eab",
-        "name": "mimtas",
-        "comment": "comment",
-        "timestamp": new Date(1740544380713)
     },
     //page one coffee and bar
     {
@@ -103,7 +96,7 @@ export async function seed(knex) {
         "id": "ffe8efba-435f-4304-afb7-67229606accc",
         "photo_id": "cf280736-0222-11f0-8248-841f0fee7eab",
         "name": "Casey Schmidt",
-        "comment": "The perspective here is unique and adds a lot of interest to the photo.",
+        "comment": "Best spot for brunch!",
         "timestamp": new Date(1724612264000)
     },
     {
