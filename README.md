@@ -44,8 +44,8 @@ The backend provides a RESTful API defined in routes/photos.js, powered by contr
 
 Retrieve all cafés.
 Controller: photosController.getAllCafes
-Response
-
+Response:
+```
 [
   {
     "id": "c4d5e6f7-2222-6666-8888-999999999993",
@@ -58,7 +58,7 @@ Response
     "placeId": "ChIJ1234",
     "tags": ["Best Coffee", "Study Spot"]
   }
-]
+```
 
 **GET /photos/:id**
 
@@ -68,7 +68,7 @@ Parameters:
 	•	id (string) – Café UUID.
 
 Response
-
+```
 {
   "id": "c4d5e6f7-2222-6666-8888-999999999993",
   "photographer": "NEO Coffee Bar",
@@ -81,6 +81,7 @@ Response
   "placeId": "ChIJ1234",
   "tags": ["Best Coffee", "Study Spot"]
 }
+```
 
 **GET /photos/:id/comments**
 
@@ -91,7 +92,7 @@ Parameters:
 	•	id (string) – Café UUID.
 
 Response
-
+```
 [
   {
     "commentId": 1,
@@ -101,6 +102,7 @@ Response
     "timestamp": "2025-03-21T10:00:00Z"
   }
 ]
+```
 
 **POST /photos/:id/comments**
 
@@ -111,14 +113,14 @@ Parameters:
 	•	id (string) – Café UUID.
 
 Request Body
-
+```
 {
   "user": "CoffeeLover123",
   "text": "Loved the vibes here!"
 }
-
+```
 Response
-
+```
 {
   "commentId": 2,
   "cafeId": "c4d5e6f7-2222-6666-8888-999999999993",
@@ -126,8 +128,7 @@ Response
   "text": "Loved the vibes here!",
   "timestamp": "2025-03-21T12:00:00Z"
 }
-
-
+```
 
 ⸻
 
@@ -179,7 +180,7 @@ Steps
 1️⃣ Clone the Repository
 
 git clone <https://github.com/mimschowdhury/mimta-chowdhury-capstone-api.git>
-cd 6ixcafes-backend
+<br>cd 6ixcafes-backend
 
 2️⃣ Install Dependencies
 
@@ -188,17 +189,17 @@ npm install
 3️⃣ Configure Environment
 Create a .env file in the root:
 
-DB_HOST=localhost
-DB_USER=your_user
-DB_PASSWORD=your_password
-DB_NAME=6ixcafes_db
-PORT=8080
+<br>DB_HOST=localhost
+<br>DB_USER=your_user
+<br>DB_PASSWORD=your_password
+<br>DB_NAME=6ixcafes_db
+<br>PORT=8080
 
 4️⃣ Set Up Database
 
-CREATE DATABASE 6ixcafes_db;
-Run migrations:
-npx knex migrate:latest
+<br>CREATE DATABASE 6ixcafes_db;
+<br>Run migrations:
+<br>npx knex migrate:latest
 
 (Optional) Seed initial data:
 
@@ -219,8 +220,8 @@ Roadmap 🚀
 
 Future Enhancements 🌱
 
-✅ User authentication (JWT).
-✅ Advanced filtering (e.g., ?tags=Vegan).
-✅ Performance optimizations with caching.
+<br>✅ User authentication (JWT).
+<br>✅ Advanced filtering (e.g., ?tags=Vegan).
+<br>✅ Performance optimizations with caching.
 
 ⸻
