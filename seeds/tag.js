@@ -9,6 +9,7 @@ export async function seed(knex) {
       { name: "Downtown Toronto" },
       { name: "Durham" },
       { name: "East York" },
+      { name: "Etobicoke" },
       { name: "Markham" },
       { name: "North York" },
       { name: "Scarborough" },
