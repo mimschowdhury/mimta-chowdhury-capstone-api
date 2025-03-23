@@ -76,7 +76,7 @@ export async function seed(knex) {
     "likes": "197 Bartley Dr",
     "googleRating": 4.5,
     "placeId": "ChIJadpqulDN1IkR2V3IbCphwhg",
-    "tags": JSON.stringify(["Ambience, Best Baked Goods, North York"]),
+    "tags": JSON.stringify(["Ambience, Best Baked Goods, East York"]),
     "lat": 43.72002282153777,
     "lng": -79.31268619043634
   },
@@ -141,7 +141,7 @@ export async function seed(knex) {
     "likes": "50 Wagstaff Dr",
     "googleRating": 4.7,
     "placeId": "ChIJ84vitCzL1IkRDT5wnL5MaBs",
-    "tags": JSON.stringify(["Best Coffee, North York"]),
+    "tags": JSON.stringify(["Best Coffee, East York"]),
     "lat": 43.67464131237546,
     "lng": -79.3296588769553
   },
@@ -547,8 +547,7 @@ export async function seed(knex) {
     "tags": JSON.stringify(["Best Baked Goods, West End Toronto"]),
     "lat": 43.658145352887935,
     "lng": -79.44489754474644
-  }
-  ,
+  },
   {
     "id": "b8f5a9d3-47c1-42e6-88b2-5c93e6a1e8f1",
     "photo": "http://localhost:8080/images/Photo-42.png",
@@ -561,6 +560,110 @@ export async function seed(knex) {
     "tags": JSON.stringify(["Ambience, Study Spot, Downtown Toronto"]),
     "lat": 43.673686771169116,
     "lng": -79.41318384373508
+  },
+  {
+    "id": "d57c979e-96ff-4471-9867-d8d270d62ed3",
+    "photo": "http://localhost:8080/images/Photo-43.png",
+    "photoDescription": "Rooms Coffee is a hidden gem nestled in Toronto, offering a unique fusion of Japanese-inspired aesthetics and cozy ambiance. Each location boasts eclectic interiors that transport you to a serene retreat—perfect for getting lost in a book, tackling assignments, or diving into deep work. The pour-over bar also doubles as a DJ booth! So whether you’re savouring their signature hojicha latte or indulging in a buttery almond croissant, Rooms Coffee provides a peaceful escape from the hustle and bustle, making it an ideal study spot for those seeking focus and inspiration.",
+    "cafeFavourites": "Our favourites: Hojicha Latte, Matcha Latte, Kouign Amann, Nitro Cold Brew",
+    "photographer": "Rooms Coffee",
+    "likes": "17 Baldwin St", 
+    "googleRating": 4.6,
+    "placeId": "ChIJFaz7SRQ1K4gRYn1AukFrlq0",
+    "tags": JSON.stringify(["Ambience, Best Coffee, Study Spot, Downtown Toronto"]),
+    "lat": 43.65625206191422,
+    "lng": -79.39289412752092
+  },
+  {
+    "id": "4f8a9c12-3d6e-45b7-b2d9-9a7f5e8c1d34",
+    "photo": "http://localhost:8080/images/Photo-44.png",
+    "photoDescription": "Cocoon Coffee is a delightful haven nestled near the Dufferin-Wilson intersection in Toronto. This café offers a cool, calm atmosphere for nearby residents looking for a place to unwind, and a short commute for coffee enthusiasts looking to try a new shop.",
+    "cafeFavourites": "Our favourites: Dalgona Iced Coffee, Blueberry Scone, Iced Matcha Latte, Tiramisu, Salted Brownie",
+    "photographer": "Cocoon Coffee",
+    "likes": "855 Wilson Ave", 
+    "googleRating": 4.9,
+    "placeId": "ChIJSwvhoT0zK4gRQcdN72bY6As",
+    "tags": JSON.stringify(["Best Baked Goods, Best Coffee, North York"]),
+    "lat": 43.73095690745418,
+    "lng": -79.46506557931971
+  },
+  {
+    "id": "e7b8a9d3-5c1f-4a6e-9b2e-8d5f7a6b9c2e",
+    "photo": "http://localhost:8080/images/Photo-45.png",
+    "photoDescription": "Mitfar Boutique Cafe is a unique fusion of art gallery and café nestled in Toronto’s vibrant Summerhill neighbourhood. This charming spot offers a serene ambiance, making it an ideal retreat for art lovers and coffee aficionados alike. With unique offerings like the Pistachio Saffron Round Croissant and Strawberry Mango Croissant, pastry lovers are also in for a treat!",
+    "cafeFavourites": "Our favourites: Hot Chocolate, Pistachio Latte, Strawberry Mango Croissant, Peppermint Latte, Strawberry Matcha Latte, Pistachio Croissant",
+    "photographer": "Mitfar Boutique Cafe",
+    "likes": "1098 Yonge St", 
+    "googleRating": 4.5,
+    "placeId": "ChIJ_7AYu3ozK4gRSrQ2gi5Mi1c",
+    "tags": JSON.stringify(["Ambience, Best Coffee, Downtown Toronto"]),
+    "lat": 43.67864630581944,
+    "lng": -79.38933546776522
+  },
+  {
+    "id": "265052cb-7cbe-4e0d-a901-a469c1adb7f5",
+    "photo": "http://localhost:8080/images/Photo-46.png",
+    "photoDescription": "Nestled in Downtown Toronto, this sleek and modern cafe is a hub for coffee lovers who appreciate top-tier beans and expertly calibrated espresso. Whether you’re sipping on their signature Nitro Cold Brew or indulging in a flaky croissant, Quantum delivers an experience that’s both innovative and inviting.",
+    "cafeFavourites": "Our favourites: Nitro Cold Brew, Flat White, Pain au Chocolat",
+    "photographer": "Quantum Coffee",
+    "likes": "482 Front St W", 
+    "googleRating": 4.2,
+    "placeId": "ChIJcWRzY9k0K4gRHAdLskwgPUQ",
+    "tags": JSON.stringify(["Best Coffee, Downtown Toronto"]),
+    "lat": 43.642717768103054,
+    "lng": -79.39603991406146
+  },
+  {
+    "id": "d8f7a62b-3e5b-4b9f-bd6e-89c42eaf9c78",
+    "photo": "http://localhost:8080/images/Photo-47.png",
+    "photoDescription": "A slice of Italy in the heart of Toronto, Oretta Caffè is a chic and stylish café offering classic Italian espresso drinks, flaky pastries, and hearty panini. Whether you’re grabbing a quick macchiato on the go or settling in with a creamy cappuccino and a freshly baked pizzetta, this spot delivers la dolce vita in every bite. With a cozy yet modern interior and a welcoming patio, it’s the perfect place to work, unwind, or simply enjoy a taste of Italy.",
+    "cafeFavourites": "Our favourites: Pizzetta, Nutella Bombolone, Macchiato, Cappuccino",
+    "photographer": "Oretta Caffe",
+    "likes": "633 King St W", 
+    "googleRating": 4.2,
+    "placeId": "ChIJe56zxIw1K4gRtP5JWO98q9Y",
+    "tags": JSON.stringify(["Ambience, Brunch, Study Spot, Downtown Toronto"]),
+    "lat": 43.64406498390395,
+    "lng": -79.40086715550184
+  },
+  {
+    "id": "3f8d9a74-b5e2-42c9-a7f1-24dc5e36b87e",
+    "photo": "http://localhost:8080/images/Photo-48.png",
+    "photoDescription": "This charming café blends minimalistic design with lush greenery, creating a calming oasis perfect for unwinding or getting work done. Whether you’re savoring a meticulously brewed pour-over or indulging in a flaky pastry, Another Land Coffee is a hidden gem for those who appreciate both aesthetics and quality coffee.",
+    "cafeFavourites": "Our favourites: Tiramisu Latte, Basque Cheesecake, Iced Yuzu Americano, Matcha Tiramisu Latte",
+    "photographer": "Another Land Coffee",
+    "likes": "4708 Yonge St", 
+    "googleRating": 4.7,
+    "placeId": "ChIJjevXe1ktK4gRNaeyoRS6tCE",
+    "tags": JSON.stringify(["Best Baked Goods, North York"]),
+    "lat": 43.759363446739975,
+    "lng": -79.41011295822288
+  },
+  {
+    "id": "ChIJk-OnKx8tK4gRy-B1MSOPhpU",
+    "photo": "http://localhost:8080/images/Photo-49.png",
+    "photoDescription": "Coffee Lunar brings a celestial touch to North York’s café scene, offering a sleek yet cozy space where coffee lovers can escape the daily grind. With its minimalist decor, warm lighting, and perfectly crafted espresso drinks, it’s the ideal spot for both casual catch-ups and focused study sessions. Whether you’re enjoying a creamy Lunar Latte or a fresh-baked croissant, every visit feels like a little escape to the moon.",
+    "cafeFavourites": "Our favourites: Lunar Latte, Matcha Basque Cheesecake, Vanilla Drop Latte, Cream Drop, Mocha Latte",
+    "photographer": "Coffee Lunar",
+    "likes": "920 Yonge St", 
+    "googleRating": 4.4,
+    "placeId": "ChIJvTh4MNQ1K4gRgk93kMifYHo",
+    "tags": JSON.stringify(["Ambience, Best Coffee, Study Spot, North York"]),
+    "lat": 43.6745414566414,
+    "lng": -79.38736167409665
+  },
+  {
+    "id": "d9b3f8c2-7a5d-4e6f-91a2-3c7d8e4f5b1a",
+    "photo": "http://localhost:8080/images/Photo-50.png",
+    "photoDescription": "Le Bleu Coffee is a hidden gem in North York, bringing a chic European café vibe with a modern twist. Known for its cozy decor and beautifully plated drinks, this spot is perfect for coffee aficionados and pastry lovers alike.",
+    "cafeFavourites": "Our favourites: Pistachio Croissant, Raspberry Croissant, Blue Latte, Pistachio Latte",
+    "photographer": "Le Bleu Coffee",
+    "likes": "728 St Clair Ave W", 
+    "googleRating": 4.8,
+    "placeId": "ChIJp6QXpJg1K4gREC-OWg2Plag",
+    "tags": JSON.stringify(["Ambience, Study Spot, North York"]),
+    "lat": 43.6820081090884,
+    "lng": -79.42432666037693
   }
 ]);
 };
