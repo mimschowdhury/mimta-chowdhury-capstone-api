@@ -640,15 +640,15 @@ export async function seed(knex) {
     "lng": -79.41011295822288
   },
   {
-    "id": "ChIJk-OnKx8tK4gRy-B1MSOPhpU",
+    "id": "7f4b9c12-3d6a-4e5b-8f2e-92c7d1a6b8e3",
     "photo": "http://localhost:8080/images/Photo-49.png",
-    "photoDescription": "Coffee Lunar brings a celestial touch to North York’s café scene, offering a sleek yet cozy space where coffee lovers can escape the daily grind. With its minimalist decor, warm lighting, and perfectly crafted espresso drinks, it’s the ideal spot for both casual catch-ups and focused study sessions. Whether you’re enjoying a creamy Lunar Latte or a fresh-baked croissant, every visit feels like a little escape to the moon.",
+    "photoDescription": "Coffee Lunar brings a celestial touch to Toronto’s cafe scene, offering a sleek yet cozy space where coffee lovers can escape the daily grind. With its minimalist decor, warm lighting, and perfectly crafted espresso drinks, it’s the ideal spot for both casual catch-ups and focused study sessions. Whether you’re enjoying a creamy Lunar Latte or a fresh-baked croissant, every visit feels like a little escape to the moon.",
     "cafeFavourites": "Our favourites: Lunar Latte, Matcha Basque Cheesecake, Vanilla Drop Latte, Cream Drop, Mocha Latte",
     "photographer": "Coffee Lunar",
     "likes": "920 Yonge St", 
     "googleRating": 4.4,
     "placeId": "ChIJvTh4MNQ1K4gRgk93kMifYHo",
-    "tags": JSON.stringify(["Ambience, Best Coffee, Study Spot, West End Toronto"]),
+    "tags": JSON.stringify(["Ambience, Best Coffee, Study Spot, Downtown Toronto"]),
     "lat": 43.6745414566414,
     "lng": -79.38736167409665
   },
@@ -739,7 +739,7 @@ export async function seed(knex) {
     "likes": "993 Bloor St W", 
     "googleRating": 4.7,
     "placeId": "ChIJd2xthx8_K4gRLdFOmuBhpt4",
-    "tags": JSON.stringify(["Ambience, Brunch, Downtown Toronto"]),
+    "tags": JSON.stringify(["Ambience, Brunch, West End Toronto"]),
     "lat": 43.660953234237326,
     "lng": -79.42958222483662
   },
