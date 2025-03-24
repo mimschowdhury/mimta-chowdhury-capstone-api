@@ -302,6 +302,88 @@ export async function seed(knex) {
         "name": "Henry",
         "comment": "The tropical smoothie bowl is an absolute must-try. Perfect start to the day!",
         "timestamp": new Date(1724957864000)
+    },
+    //10 dean
+    {
+        "id": "c2f89d17-8d3e-4a8a-9d5c-6a7f49e5b1d2",
+        "photo_id": "4731eeb7-64c7-4d56-933f-e3c17be293a8",
+        "name": "Samantha",
+        "comment": "Such a hidden gem! The lattes are smooth, and the pastries are so fresh. Definitely my new go-to cafe in the area!",
+        "timestamp": new Date(1725205064000)
+    },
+    {
+        "id": "8d5e3b7a-2c6f-491d-b9e7-4f2c8a5d1e6b",
+        "photo_id": "4731eeb7-64c7-4d56-933f-e3c17be293a8",
+        "name": "Jordan",
+        "comment": "Loved the cozy vibes and the friendly baristas. The oat milk cappuccino was perfect—creamy and well-balanced!",
+        "timestamp": new Date(1725387864000)
+    },
+    {
+        "id": "3a7f49e5-b1d2-4c6f-8d5e-9a2b3c7f1e4d",
+        "photo_id": "4731eeb7-64c7-4d56-933f-e3c17be293a8",
+        "name": "Ethan",
+        "comment": "Tried their signature espresso tonic—so refreshing! The ambiance is great for getting work done too.",
+        "timestamp": new Date(1725560664000)
+    },
+    //dispatch
+    {
+        "id": "a7f5d4c3-8e2b-4a9c-7d6e-1f3b2c5a9e4d",
+        "photo_id": "e3a1c2b4-5f6d-4a8e-9c7b-2d1e4f5a6b7c",
+        "name": "Lucas",
+        "comment": "Loved the ethical sourcing focus here! Their oat milk latte was smooth and perfectly balanced. Will definitely be back for a coffee tasting event!",
+        "timestamp": new Date(1725205064000)
+    },
+    {
+        "id": "9c7b2d1e-4f5a-6b7c-8e3a-1c2b4f5d6e7f",
+        "photo_id": "e3a1c2b4-5f6d-4a8e-9c7b-2d1e4f5a6b7c",
+        "name": "Maya",
+        "comment": "Their Hibiscus Cinnamon Iced Tea was a game-changer! Refreshing, aromatic, and just the right amount of spice. A must-visit in Downtown Toronto!",
+        "timestamp": new Date(1725387864000)
+    },
+    //bloom
+    {
+        "id": "3e6d4a9c-7b2d-1f5a-8e3a-4c5b9d7f2e1b",
+        "photo_id": "05c22402-0ac2-4618-892b-7846a5d25233",
+        "name": "Sophie",
+        "comment": "The cream puffs here are heavenly—light, airy, and not too sweet. Pairing them with a matcha latte was pure perfection!",
+        "timestamp": new Date(1725205064000)
+    },
+    {
+        "id": "1f3b2c5a-9e4d-7d6e-8e3a-4a9c7b2d1f5a",
+        "photo_id": "05c22402-0ac2-4618-892b-7846a5d25233",
+        "name": "Ethan",
+        "comment": "I finally found a place that does Kinako Daifuku right! Authentic, delicate, and packed with flavor. Will be coming back for the parfait next time!",
+        "timestamp": new Date(1725387864000)
+    },
+    //hiya scone
+    {
+        "id": "f1a8c7d2-3b4e-49f6-82d5-7c9b5e2a8d4f",
+        "photo_id": "c5f8e7d2-9b4a-4c1e-82f6-7d3a9b5e8c1f",
+        "name": "Emma",
+        "comment": "The Matcha White Chocolate Scone was divine! Perfect balance of earthy matcha and sweet white chocolate. Such a cozy spot!",
+        "timestamp": new Date(1725209064000)
+    },
+    {
+        "id": "7d2a9b5e-4c1f-8e7d-3b5a-82f6c5f8e7d2",
+        "photo_id": "c5f8e7d2-9b4a-4c1e-82f6-7d3a9b5e8c1f",
+        "name": "Ryan",
+        "comment": "Absolutely obsessed with the Hojicha Latte! Smooth, creamy, and packed with rich roasted flavor. This place is a must-visit for scone lovers!",
+        "timestamp": new Date(1725392864000)
+    },
+    //studio de corner
+    {
+        "id": "3e7b2d9f-4a6c-41e8-95d7-8f1a5c2e7b4f",
+        "photo_id": "a3e7d9f2-4b6c-43e1-85d7-91f8c5e2a7b4",
+        "name": "Sophia",
+        "comment": "The Charcoal Latte was so unique—rich, smooth, and slightly smoky. Perfect spot to unwind with a book!",
+        "timestamp": new Date(1725209064000)
+    },
+    {
+        "id": "8c5e2a7b-4f3b-9d2a-6c1e-85d7a3e7d9f2",
+        "photo_id": "a3e7d9f2-4b6c-43e1-85d7-91f8c5e2a7b4",
+        "name": "Daniel",
+        "comment": "Loved the Japanese Souffle Pancakes! So fluffy and light, paired perfectly with a matcha latte. The cafe’s ambiance is super relaxing too.",
+        "timestamp": new Date(1725392864000)
     }
 ]);
 }
