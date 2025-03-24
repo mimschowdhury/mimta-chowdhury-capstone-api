@@ -190,127 +190,118 @@ export async function seed(knex) {
         "comment": "Love the composition! The use of natural light here is stunning.",
         "timestamp": new Date(1724612264000)
     },
-    // {
-    //     "id": "080ebf0b-ff4b-4d06-a54c-3f411f0b4f8f",
-    //     "photo_id": "f31d524c-7ce8-446b-a4db-107cb089e4b4",
-    //     "name": "Terry Wong",
-    //     "comment": "Very moody, love how the tone contributes to the feeling.",
-    //     "timestamp": new Date(1724957864000)
-    // },
-    // {
-    //     "id": "e42e03a0-bf31-4f41-8f59-3a649130b555",
-    //     "photo_id": "c432adb0-df2d-4f6b-83d0-bfda8d99fca5",
-    //     "name": "Terry Wong",
-    //     "comment": "Such a well-timed capture! The movement is perfectly frozen in the frame.",
-    //     "timestamp": new Date(1724612264000)
-    // },
-    // {
-    //     "id": "7b57e4c4-dda6-42ad-9e0f-18c9e13c592b",
-    //     "photo_id": "c432adb0-df2d-4f6b-83d0-bfda8d99fca5",
-    //     "name": "Ash Tanaka",
-    //     "comment": "Good work.",
-    //     "timestamp": new Date(1725130664000)
-    //  },
-    // found coffee
-    // {
-    //     "id": "350aac5f-dd17-4957-806f-1da196f3b40b",
-    //     "photo_id": "e966674f-58d5-442e-8f42-5902e5ee6571",
-    //     "name": "Nico Pascucci",
-    //     "comment": "Excellent use of leading lines. Really draws the viewer's eye in.",
-    //     "timestamp": new Date(1724957864000)
-    // },
-    // {
-    //     "id": "888457e0-97b0-4900-b24c-63efc4101f4e",
-    //     "photo_id": "e966674f-58d5-442e-8f42-5902e5ee6571",
-    //     "name": "Charlene Thomas",
-    //     "comment": "The bokeh effect in the foreground really contributes to this composition.",
-    //     "timestamp": new Date(1725476264000)
-    // },
-    //cafe 23
-    // {
-    //     "id": "566a3622-012d-4aa3-a6ed-1ccf6306ae13",
-    //     "photo_id": "2ce85c21-4a1e-4b05-b147-8c4957706d3e",
-    //     "name": "Ali Novak-Greene",
-    //     "comment": "Amazing shot! The play of light and shadow is beautifully balanced.",
-    //     "timestamp": new Date(1724957864000)
-    // },
-    // {
-    //dark espresso
-    //     "id": "eb13b23f-37dd-4075-9af5-320fabe10d88",
-    //     "photo_id": "d8300fda-61f8-42da-8c21-212f01a48b96",
-    //     "name": "Elena Rossi",
-    //     "comment": "The symmetry in this shot is incredibly satisfying. Well done!",
-    //     "timestamp": new Date(1724957864000)
-    // },
-    // {
-    //     "id": "72f674dc-c8aa-4b88-872a-e2e0b7474df8",
-    //     "photo_id": "d8300fda-61f8-42da-8c21-212f01a48b96",
-    //     "name": "Nico Pascucci",
-    //     "comment": "Great use of line in this composition. Capturing the gradient of the sky and setting sun really adds to the magic of this snap.",
-    //     "timestamp": new Date(1725130664000)
-    // },
-    // {
-    //     "id": "07e4816c-4853-4ae5-9bb5-e64a35d41475",
-    //     "photo_id": "d8300fda-61f8-42da-8c21-212f01a48b96",
-    //     "name": "Terry Wong",
-    //     "comment": "Great use of rule of thirds. The subject placement is perfect.",
-    //     "timestamp": new Date(1725476264000)
-    // },
-    // {
-    //     "id": "f20f620a-efcf-41bf-ae1c-9e448982c3c7",
-    //     "photo_id": "d8300fda-61f8-42da-8c21-212f01a48b96",
-    //     "name": "Kai Muller",
-    //     "comment": "The lighting here is so natural and flattering. Great capture!",
-    //     "timestamp": new Date(1725476264000)
-    // },
-    // {
-    //     "id": "d1b93dcf-ec44-49be-b98b-7bd17456acaf",
-    //     "photo_id": "c2e3a895-eaf0-42a8-8f9b-4722300ba847",
-    //     "name": "Terry Wong",
-    //     "comment": "The clarity and focus in this shot are impeccable. Great job!",
-    //     "timestamp": new Date(1725476264000)
-    // },
-    // {
-    //     "id": "4faf5418-587d-4456-a6f6-f99a677dbfe5",
-    //     "photo_id": "c2e3a895-eaf0-42a8-8f9b-4722300ba847",
-    //     "name": "Mimta",
-    //     "comment": "My favourite cafe to study in! Loveeee the interiors and the spacious seating!",
-    //     "timestamp": new Date(1741820586633)
-    // },
-    // {
-    //     "id": "16bf5bb5-cbdf-4f61-8895-74b24f16c5a5",
-    //     "photo_id": "aae2a3f0-24d0-4410-bbd7-d63cfbe1c671",
-    //     "name": "Kai Muller",
-    //     "comment": "Such a captivating photo! The depth of field is beautifully executed.",
-    //     "timestamp": new Date(1724785064000)
-    // },
-    // {
-    //     "id": "3adb431d-61d3-4a20-bc86-caabca05d68e",
-    //     "photo_id": "4731eeb7-64c7-4d56-933f-e3c17be293a8",
-    //     "name": "Terry Wong",
-    //     "comment": "Fantastic capture! The reflections are perfectly executed and add dimension.",
-    //     "timestamp": new Date(1724785064000)
-    // },
-    // {
-    //     "id": "65c71eec-0f39-4a9d-99b7-642a89e511ee",
-    //     "photo_id": "4731eeb7-64c7-4d56-933f-e3c17be293a8",
-    //     "name": "Ash Tanaka",
-    //     "comment": "Well done.",
-    //     "timestamp": new Date(1724957864000)
-    // },
-    // {
-    //     "id": "6f25b0a0-fce2-4b5d-8b52-e14bcba6ce73",
-    //     "photo_id": "df129bd3-452b-41ca-bc59-bc9b1c606e09",
-    //     "name": "Kai Muller",
-    //     "comment": "Excellent shot! The composition and lighting create a striking visual",
-    //     "timestamp": new Date(1724957864000)
-    // },
-    // {
-    //     "id": "17a5d5f4-be57-4b67-8904-34cf170f2eff",
-    //     "photo_id": "6321c961-de3b-44a3-9725-62a0560135db",
-    //     "name": "Terry Wong",
-    //     "comment": "Impressive capture! The contrast and shadows add so much depth.",
-    //     "timestamp": new Date(1724785064000)
-    // }
+    //world peace cafe
+    {
+        "id": "a1b2c3d4-5678-9101-1121-314151617181",
+        "photo_id": "b3197a30-344c-4f37-8c3d-a859c7611d14",
+        "name": "Sophie",
+        "comment": "This place truly lives up to its name—great vibes, delicious pastries, and the kindest staff!",
+        "timestamp": new Date(1724785064000)
+    },
+    {
+        "id": "22334455-6677-8899-1011-121314151617",
+        "photo_id": "b3197a30-344c-4f37-8c3d-a859c7611d14",
+        "name": "Nathan",
+        "comment": "The cardamom latte here is next-level. Never knew I needed it in my life until now!",
+        "timestamp": new Date(1724957864000)
+    },
+    //cafe n one
+    {
+        "id": "33445566-7788-9900-1112-131415161718",
+        "photo_id": "df129bd3-452b-41ca-bc59-bc9b1c606e09",
+        "name": "Maya",
+        "comment": "Love the aesthetic of this place! Super cozy and the matcha drinks are phenomenal.",
+        "timestamp": new Date(1724785064000)
+    },
+    {
+        "id": "44556677-8899-0011-1213-141516171819",
+        "photo_id": "df129bd3-452b-41ca-bc59-bc9b1c606e09",
+        "name": "Jordan",
+        "comment": "If you’re into oat milk lattes, this is *the* spot to go. So smooth and creamy!",
+        "timestamp": new Date(1724957864000)
+    },
+    // bready cafe
+    {
+        "id": "55667788-9900-1122-1314-151617181920",
+        "photo_id": "a3d7f9c2-8b6e-4f1a-92d7-3c5e7a4b8d9f",
+        "name": "Olivia",
+        "comment": "The name says it all—if you love fresh, homemade bread, this is heaven!",
+        "timestamp": new Date(1724785064000)
+    },
+    {
+        "id": "66778899-0011-2233-1415-161718192021",
+        "photo_id": "a3d7f9c2-8b6e-4f1a-92d7-3c5e7a4b8d9f",
+        "name": "Daniel",
+        "comment": "The croissants here are unreal! Buttery, flaky, and absolutely delicious.",
+        "timestamp": new Date(1724957864000)
+    },
+    //bevy
+    {
+        "id": "77889900-1122-3344-1516-171819202122",
+        "photo_id": "e13f8a7b-2d3c-4b6a-92f9-8c3d5e7f6b4d",
+        "name": "Emma",
+        "comment": "Super trendy spot with great coffee and chill vibes. Love the playlist here!",
+        "timestamp": new Date(1724785064000)
+    },
+    {
+        "id": "88990011-2233-4455-1617-181920212223",
+        "photo_id": "e13f8a7b-2d3c-4b6a-92f9-8c3d5e7f6b4d",
+        "name": "Liam",
+        "comment": "Their signature Bevy Latte is so smooth and flavorful—definitely a must-try!",
+        "timestamp": new Date(1724957864000)
+    },
+    //coffee lunar
+    {
+        "id": "99001122-3344-5566-1718-192021222324",
+        "photo_id": "7f4b9c12-3d6a-4e5b-8f2e-92c7d1a6b8e3",
+        "name": "Ethan",
+        "comment": "This place has the most aesthetic coffee art. The vibes are immaculate!",
+        "timestamp": new Date(1724785064000)
+    },
+    {
+        "id": "00112233-4455-6677-1819-202122232425",
+        "photo_id": "7f4b9c12-3d6a-4e5b-8f2e-92c7d1a6b8e3",
+        "name": "Sophia",
+        "comment": "Their lavender latte is so delicate and fragrant. Perfect for a cozy afternoon.",
+        "timestamp": new Date(1724957864000)
+    },
+    // le bleu coffee
+    {
+        "id": "11223344-5566-7788-1920-212223242526",
+        "photo_id": "d9b3f8c2-7a5d-4e6f-91a2-3c7d8e4f5b1a",
+        "name": "Grace",
+        "comment": "Feels like a little slice of Paris in Toronto. Love the chic decor and smooth espresso!",
+        "timestamp": new Date(1724785064000)
+    },
+    {
+        "id": "22334455-6677-8899-2021-222324252627",
+        "photo_id": "d9b3f8c2-7a5d-4e6f-91a2-3c7d8e4f5b1a",
+        "name": "Alex",
+        "comment": "The pain au chocolat here is absolutely perfect. Crispy, buttery, and filled with just the right amount of chocolate!",
+        "timestamp": new Date(1724957864000)
+    },
+    //stae cafe
+    {
+        "id": "44556677-8899-0011-2223-242526272829",
+        "photo_id": "cf280736-0222-11f0-8248-841f0fee7eab",
+        "name": "Lucas",
+        "comment": "Super minimalistic and peaceful space—great for focusing on work with a delicious coffee in hand.",
+        "timestamp": new Date(1724957864000)
+    },
+    //casa boho
+    {
+        "id": "77889900-1122-3344-2526-272829303132",
+        "photo_id": "9d5f8161-093a-47bb-8977-b24db66bc1d0",
+        "name": "Ella",
+        "comment": "Such a refreshing spot! Their smoothies are packed with fresh flavors.",
+        "timestamp": new Date(1724785064000)
+    },
+    {
+        "id": "88990011-2233-4455-2627-282930313233",
+        "photo_id": "9d5f8161-093a-47bb-8977-b24db66bc1d0",
+        "name": "Henry",
+        "comment": "The tropical smoothie bowl is an absolute must-try. Perfect start to the day!",
+        "timestamp": new Date(1724957864000)
+    }
 ]);
 }
