@@ -12,9 +12,9 @@
 //   },
 // };
 
-require('dotenv').config();
+import 'dotenv/config';  // Use `import` for loading environment variables
 
-module.exports = {
+export default {
   development: {
     client: 'mysql2',
     connection: {
