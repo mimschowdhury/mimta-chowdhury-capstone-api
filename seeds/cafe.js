@@ -4,7 +4,7 @@ export async function seed(knex) {
   await knex("cafe").insert([
   {
     "id": "cf27cf96-0222-11f0-8248-841f0fee7eab",
-    "photo": "http://localhost:8080/images/Photo-00.png",
+    "photo": "https://sixcafesbackend-73cce46c9779.herokuapp.com/images/Photo-00.png",
     "photoDescription": "Cafe X Bica is where the art of coffee meets the soul of Toronto! This quirky gem offers a cozy space to sip on expertly crafted espresso drinks, each one packed with flavor and personality. Whether you're fueling up for a busy day or unwinding with friends, Cafe X Bica's welcoming vibe and delicious brews will make you feel right at home. From its funky decor to its top-notch coffee, this place has everything you need for a little pick-me-up, with a whole lot of flair!",
     "cafeFavourites": "Our favourites: Cortado, Iced Vanilla Latte, Matcha Latte & Raspberry Croissant.",
     "photographer": "Cafe x Bica",
@@ -17,7 +17,7 @@ export async function seed(knex) {
   },
   {
     "id": "cf27d284-0222-11f0-8248-841f0fee7eab",
-    "photo": "http://localhost:8080/images/Photo-01.png",
+    "photo": "https://sixcafesbackend-73cce46c9779.herokuapp.com/images/Photo-01.png",
     "photoDescription": "Cafe Belem is a slice of Lisbon right in the heart of Toronto! Step inside this charming spot, and you'll feel like you've been transported to the sun-soaked streets of Portugal. Known for its mouthwatering pastels de nata and rich, aromatic coffee, Cafe Belem is the perfect place to indulge in a little sweet escape.",
     "cafeFavourites": "Our favourites: Pastel de Nata, Bolo de Arroz, Pao de Deus",
     "photographer": "Cafe Belem",
@@ -30,7 +30,7 @@ export async function seed(knex) {
   },
   {
     "id": "cf27d32e-0222-11f0-8248-841f0fee7eab",
-    "photo": "http://localhost:8080/images/Photo-02.png",
+    "photo": "https://sixcafesbackend-73cce46c9779.herokuapp.com/images/Photo-02.png",
     "photoDescription": "Located in a historic area, this cafe offers a unique ambiance that combines history with modern coffee culture. Psst...Balzac's Coffee in the Distillery District is our absolute favourite location!",
     "cafeFavourites": "Our favourites: Parisian Mist, Salted Caramel Latte.",
     "photographer": "Balzac's",
@@ -43,7 +43,7 @@ export async function seed(knex) {
   },
   {
     "id": "cf280696-0222-11f0-8248-841f0fee7eab",
-    "photo": "http://localhost:8080/images/Photo-03.png",
+    "photo": "https://sixcafesbackend-73cce46c9779.herokuapp.com/images/Photo-03.png",
     "photoDescription": "Page One Coffee & Bar is known for its unique blend of specialty coffee, lively bar energy and craft cocktails. Their specialty lies in offering a creative mix of drinks that cater to both coffee lovers and cocktail enthusiasts. Whether you're in the mood for a perfectly brewed espresso or a handcrafted cocktail, they have something to suit every taste. The cafe also offers delicious bites, making it a great place for a casual meet-up or a relaxing break.",
     "cafeFavourites": "Our favourites: Chai Latte, Avocado Toast",
     "photographer": "Page One Coffee & Bar",
@@ -56,7 +56,7 @@ export async function seed(knex) {
   },
   {
     "id": "cf280736-0222-11f0-8248-841f0fee7eab",
-    "photo": "http://localhost:8080/images/Photo-04.png",
+    "photo": "https://sixcafesbackend-73cce46c9779.herokuapp.com/images/Photo-04.png",
     "photoDescription": "Stae Cafe is where modern vibes meet cozy comfort. This gem in Markham is all about crafting the perfect cup of coffee, with rich, flavorful blends that keep you coming back for more. Whether you're enjoying a quiet moment with a latte or catching up with friends over their delicious pastries, Stae Cafe makes it easy to unwind. Plus, the sleek, minimalist decor adds to the laid-back yet chic atmosphere, making it the perfect spot to sip and relax.",
     "cafeFavourites": "Our favourites: Spanish Latte, Pistachio Matcha Latte, Steak Sandwich, Biscoff Basque Cheesecake.",
     "photographer": "Stae Cafe",
@@ -69,7 +69,7 @@ export async function seed(knex) {
   },
   {
     "id": "cf280826-0222-11f0-8248-841f0fee7eab",
-    "photo": "http://localhost:8080/images/Photo-05.png",
+    "photo": "https://sixcafesbackend-73cce46c9779.herokuapp.com/images/Photo-05.png",
     "photoDescription": "This cozy spot is a sweet tooth's dream, with delicious pastries and baked goods that are as charming as its name. Whether you're craving a flaky croissant, a decadent slice of cake, or a freshly brewed coffee, Circles & Squares has you covered.",
     "cafeFavourites": "Our favourites: Almond Croissant, Maple Pecan Butter Tart, Spinach Feta Cheese Quiche, Mocha Latte",
     "photographer": "Circles & Squares Bakery Cafe",
@@ -82,7 +82,7 @@ export async function seed(knex) {
   },
   {
     "id": "cf280880-0222-11f0-8248-841f0fee7eab",
-    "photo": "http://localhost:8080/images/Photo-06.png",
+    "photo": "https://sixcafesbackend-73cce46c9779.herokuapp.com/images/Photo-06.png",
     "photoDescription": "Edil's Coffee House is the perfect blend of warmth, flavor, and community. Nestled in Scarborough, this charming spot serves up delicious brews that make every sip feel like a hug in a cup. Whether you're popping in for your morning fix or settling in for a long afternoon of sipping and chatting, Edil's offers the perfect ambiance to do so. Their signature drinks and freshly baked treats make it the ultimate haven for coffee lovers looking to enjoy a peaceful moment or catch up with friends. Come for the coffee, stay for the vibe!",
     "cafeFavourites": "Our favourites: Tres Leches Iced Latte, Pastrami Sandwich, Cheesy Pesto Melt",
     "photographer": "Edil's Coffee House",
@@ -95,7 +95,7 @@ export async function seed(knex) {
   },
   {
     "id": "cf280880-0222-11f0-8248-841f0fee9eab",
-    "photo": "http://localhost:8080/images/Photo-07.png",
+    "photo": "https://sixcafesbackend-73cce46c9779.herokuapp.com/images/Photo-07.png",
     "photoDescription": "True to its name, this cafe provides a library-like environment complemented by exceptional coffee.",
     "cafeFavourites": "Our favourites: Flat White",
     "photographer": "The Library Specialty Coffee",
@@ -108,7 +108,7 @@ export async function seed(knex) {
   },
   {
     "id": "cf280934-0222-11f0-8248-841f0fee7eab",
-    "photo": "http://localhost:8080/images/Photo-08.png",
+    "photo": "https://sixcafesbackend-73cce46c9779.herokuapp.com/images/Photo-08.png",
     "photoDescription": "Housed in historic buildings, Dineen's marble counters & red leather banquettes evoke old-world glamour, making it a favourite among professionals and tourists alike.",
     "cafeFavourites": "Our favourites: Carrot Crumble Muffin, Cortado, Blueberry Scone",
     "photographer": "Dineen Coffee Co.",
@@ -121,7 +121,7 @@ export async function seed(knex) {
   },
   {
     "id": "cf28098e-0222-11f0-8248-841f0fee7eab",
-    "photo": "http://localhost:8080/images/Photo-09.png",
+    "photo": "https://sixcafesbackend-73cce46c9779.herokuapp.com/images/Photo-09.png",
     "photoDescription": "Tucked away in Toronto's charming Distillery District, Forget Me Not Coffee is the kind of spot that instantly feels like your new favorite hideaway. This cozy cafe is all about good vibes, great coffee, and even better company. Whether you're settling in for a productive study session or catching up with a friend, their bright, plant-filled space makes it easy to feel right at home. Sip on their expertly crafted lattes or treat yourself to one of their house-made pastries (trust us, the croissants are worth writing home about!). Bonus: it's dog-friendly, so feel free to bring along your furry study buddy!",
     "cafeFavourites": "Our favourites: Matcha Latte, Dalgona Iced Latte, Blueberry Scone",
     "photographer": "Forget Me Not Coffee",
@@ -134,7 +134,7 @@ export async function seed(knex) {
   },
   {
     "id": "cf2809de-0222-11f0-8248-841f0fee7eab",
-    "photo": "http://localhost:8080/images/Photo-10.png",
+    "photo": "https://sixcafesbackend-73cce46c9779.herokuapp.com/images/Photo-10.png",
     "photoDescription": "With ample seating and a commitment to quality, it's a favorite among freelancers and students.",
     "cafeFavourites": "Our favourites: Espresso, Flat White",
     "photographer": "Pilot Coffee Roasters",
@@ -147,7 +147,7 @@ export async function seed(knex) {
   },
   {
     "id": "cf280a24-0222-11f0-8248-841f0fee7eab",
-    "photo": "http://localhost:8080/images/Photo-11.png",
+    "photo": "https://sixcafesbackend-73cce46c9779.herokuapp.com/images/Photo-11.png",
     "photoDescription": "Named after the Swedish coffee break tradition, FIKA offers a tranquil escape with its minimalist design and delectable pastries.",
     "cafeFavourites": "Our favourites: Cardamom Latte, Swedish Cinnamon Bun, Fika Iced Latte",
     "photographer": "Fika Cafe",
@@ -160,7 +160,7 @@ export async function seed(knex) {
   },
   {
     "id": "f31d524c-7ce8-446b-a4db-107cb089e4b4",
-    "photo": "http://localhost:8080/images/Photo-12.png",
+    "photo": "https://sixcafesbackend-73cce46c9779.herokuapp.com/images/Photo-12.png",
     "photoDescription": "An old, run down, building sitting in the middle of a field.",
     "cafeFavourites": "Our favourites: Beetroot Latte, Ginger Cookie, Almond Croissant",
     "photographer": "Rooster Coffee House",
@@ -173,7 +173,7 @@ export async function seed(knex) {
   },
   {
     "id": "c432adb0-df2d-4f6b-83d0-bfda8d99fca5",
-    "photo": "http://localhost:8080/images/Photo-13.png",
+    "photo": "https://sixcafesbackend-73cce46c9779.herokuapp.com/images/Photo-13.png",
     "photoDescription": "Step into the cozy charm of Maman, where rustic French vibes meet the heart of Toronto. Think whitewashed brick walls, dreamy blue accents, and the warm aroma of freshly baked pastries wafting through the air. Whether you're here for their famous nutty chocolate chip cookie (yes, that one) or sipping a latte out of their signature floral cups, Maman feels like your stylish best friend's kitchen in the South of France.",
     "cafeFavourites": "Our favourites: Blueberry Lavender Loaf Cake, Nutty Chocolate Chip Cookie, Oat Flat White",
     "photographer": "Maman",
@@ -186,7 +186,7 @@ export async function seed(knex) {
   },
   {
     "id": "e966674f-58d5-442e-8f42-5902e5ee6571",
-    "photo": "http://localhost:8080/images/Photo-14.png",
+    "photo": "https://sixcafesbackend-73cce46c9779.herokuapp.com/images/Photo-14.png",
     "photoDescription": "Tucked away like a little secret in Toronto's Upper Beaches, Found Coffee is the kind of spot you'll wish you discovered sooner. Bright, welcoming, and effortlessly cool, it's a cozy space where locals gather for good vibes and even better brews.",
     "cafeFavourites": "Our favourites: Iced Pistachio Latte, Avocado Toast, Matcha Latte.",
     "photographer": "Found Coffee",
@@ -199,7 +199,7 @@ export async function seed(knex) {
   },
   {
     "id": "2ce85c21-4a1e-4b05-b147-8c4957706d3e",
-    "photo": "http://localhost:8080/images/Photo-15.png",
+    "photo": "https://sixcafesbackend-73cce46c9779.herokuapp.com/images/Photo-15.png",
     "photoDescription": "Cafe 23 is a little slice of Paris in the heart of Toronto! With its charming terrace that feels like an escape from the hustle and bustle of the city, it's the perfect spot to unwind. The serene ambiance transports you to a peaceful haven, and the French-inspired decor gives the cafe an unmistakable European flair.",
     "cafeFavourites": "Our favourites: Iced Vanilla Latte, Homemade Banana Bread, Butter Tart",
     "photographer": "Cafe 23",
@@ -212,7 +212,7 @@ export async function seed(knex) {
   },
   {
     "id": "d8300fda-61f8-42da-8c21-212f01a48b96",
-    "photo": "http://localhost:8080/images/Photo-16.png",
+    "photo": "https://sixcafesbackend-73cce46c9779.herokuapp.com/images/Photo-16.png",
     "photoDescription": "Encouraging community interaction, Dark Horse's long communal tables are perfect for meeting new people or collaborating on projects. This Toronto staple is all about expertly crafted espresso drinks, minimalistic interiors, and big windows that flood the space with light - perfect for people-watching or knocking out some work.",
     "cafeFavourites": "Our favourites: Iced Vanilla Latte, Chai Latte, Oat Milk Latte",
     "photographer": "Dark Horse Espresso Bar",
@@ -225,7 +225,7 @@ export async function seed(knex) {
   },
   {
     "id": "c2e3a895-eaf0-42a8-8f9b-4722300ba847",
-    "photo": "http://localhost:8080/images/Photo-17.png",
+    "photo": "https://sixcafesbackend-73cce46c9779.herokuapp.com/images/Photo-17.png",
     "photoDescription": "Step into De Mello, and you're instantly greeted by a burst of color, quirky art, and the aroma of seriously good coffee. Known for their playful energy and expertly roasted beans, De Mello makes every coffee experience feel like a little adventure. ",
     "cafeFavourites": "Our favourites: Honey Cinnamon Latte, Blueberry Latte, Espresso",
     "photographer": "De Mello",
@@ -238,7 +238,7 @@ export async function seed(knex) {
   },
   {
     "id": "aae2a3f0-24d0-4410-bbd7-d63cfbe1c671",
-    "photo": "http://localhost:8080/images/Photo-18.png",
+    "photo": "https://sixcafesbackend-73cce46c9779.herokuapp.com/images/Photo-18.png",
     "photoDescription": "Tucked away in a charming corner of the city, Lano Coffee is one of those hidden gems you'll want to keep all to yourself - but it's too good not to share. Minimalist design, bright airy vibes, and thoughtfully crafted coffee make Lano the perfect spot to sip, relax, and reset.",
     "cafeFavourites": "Our favourites: Basque Cheesecake, Spanish Latte.",
     "photographer": "Lano",
@@ -251,7 +251,7 @@ export async function seed(knex) {
   },
   {
     "id": "4731eeb7-64c7-4d56-933f-e3c17be293a8",
-    "photo": "http://localhost:8080/images/Photo-19.png",
+    "photo": "https://sixcafesbackend-73cce46c9779.herokuapp.com/images/Photo-19.png",
     "photoDescription": "Stylish, sleek, and effortlessly cool - 10 DEAN is a cafe that knows how to make an impression. Located in Downtown Toronto, this coffee spot blends Scandinavian minimalism with warm, welcoming vibes. It's the kind of place where you'll want to linger over your latte, whether you're deep in thought or deep in conversation.",
     "cafeFavourites": "Our favourites: Strawberry Matcha Latte, Ube Iced Latte, Cookie Butter Latte.",
     "photographer": "10 Dean",
@@ -264,7 +264,7 @@ export async function seed(knex) {
   },
   {
     "id": "df129bd3-452b-41ca-bc59-bc9b1c606e09",
-    "photo": "http://localhost:8080/images/Photo-20.png",
+    "photo": "https://sixcafesbackend-73cce46c9779.herokuapp.com/images/Photo-20.png",
     "photoDescription": "Minimalist design meets matcha dreams at Cafe N One, a sleek and calming space perfect for unwinding or catching up on work. Known for its modern aesthetic, clean lines, and neutral tones, this spot is all about good vibes and great drinks. Whether you're a matcha enthusiast or just love a pretty latte, this place checks all the boxes.",
     "cafeFavourites": "Our favourites: Strawberry Matcha Latte, Iced Yuzu Berry Matcha Latte, Souffle Pancakes, Smoked Salmon Croissant",
     "photographer": "Cafe N One",
@@ -277,7 +277,7 @@ export async function seed(knex) {
   },
   {
     "id": "6321c961-de3b-44a3-9725-62a0560135db",
-    "photo": "http://localhost:8080/images/Photo-21.png",
+    "photo": "https://sixcafesbackend-73cce46c9779.herokuapp.com/images/Photo-21.png",
     "photoDescription": "Nestled in the eclectic Kensington Market, Pamenar offers a laid-back vibe, perfect for people-watching while sipping on a cappuccino.",
     "cafeFavourites": "Our favourites: Americano, Chai Latte",
     "photographer": "Cafe Pamenar",
@@ -290,7 +290,7 @@ export async function seed(knex) {
   },
   {
     "id": "13307e72-f159-4a2f-ac09-f78bf3c7ce22",
-    "photo": "http://localhost:8080/images/Photo-22.png",
+    "photo": "https://sixcafesbackend-73cce46c9779.herokuapp.com/images/Photo-22.png",
     "photoDescription": "This light-filled cafe offers innovative latte flavors and a welcoming atmosphere, making it a favorite among locals.",
     "cafeFavourites": "Our favourites: Affogato, Avocado Toast, Breakfast Sandwich.",
     "photographer": "Versus Coffee",
@@ -303,7 +303,7 @@ export async function seed(knex) {
   },
   {
     "id": "94e05778-bcdb-48fa-b140-ef398b48e3c1",
-    "photo": "http://localhost:8080/images/Photo-23.png",
+    "photo": "https://sixcafesbackend-73cce46c9779.herokuapp.com/images/Photo-23.png",
     "photoDescription": "A blend of cafe and bar, offering a relaxed environment perfect for diving into a book or working on a project.",
     "cafeFavourites": "Our favourites: Huevos Rancheros, Cafe Mocha",
     "photographer": "The Only Cafe",
@@ -316,7 +316,7 @@ export async function seed(knex) {
   },
   {
     "id": "ea289d46-1d8a-4a7b-9478-ab51f684f1b5",
-    "photo": "http://localhost:8080/images/Photo-24.png",
+    "photo": "https://sixcafesbackend-73cce46c9779.herokuapp.com/images/Photo-24.png",
     "photoDescription": "Butter & Blue is a cozy, charming cafe tucked away in Baldwin Village, where the former bed-and-breakfast space has been transformed into a delightful coffee spot. With a cozy blue interior, DIY touches, and a menu inspired by Hong Kong diner classics, it’s a favourite for locals.",
     "cafeFavourites": "Our favourites: Matcha Latte, HK Milk Tea, Spam/Egg Milk Bun, Matcha Mochi Cake",
     "photographer": "Butter & Blue",
@@ -329,7 +329,7 @@ export async function seed(knex) {
   },
   {
     "id": "a1b2c3d4-1111-2222-3333-444444444454",
-    "photo": "http://localhost:8080/images/Photo-25.png",
+    "photo": "https://sixcafesbackend-73cce46c9779.herokuapp.com/images/Photo-25.png",
     "photoDescription": "Arvo Coffee in the Distillery District is your caffeine-powered ticket to a good time! Tucked among cobblestone charm, Arvo’s got the kind of energy that makes you want to sip, savor, and maybe even dance a little—coffee cup in hand, of course. Pair your flat white with a pastry, and let the good vibes roll in this artsy, historic hideaway.",
     "cafeFavourites": "Our favourites: Iced Latte, Smashed Avocado Toast, Aussie Magic",
     "photographer": "Arvo Coffee",
@@ -342,7 +342,7 @@ export async function seed(knex) {
   },
   {
     "id": "b9c8d7e6-5555-4444-3333-222222222221",
-    "photo": "http://localhost:8080/images/Photo-26.png",
+    "photo": "https://sixcafesbackend-73cce46c9779.herokuapp.com/images/Photo-26.png",
     "photoDescription": "Fahrenheit Coffee has been a long-time Toronto fave among discerning caffeine lovers in Toronto.",
     "cafeFavourites": "Our favourites: Latte, Flat White",
     "photographer": "Fahrenheit Coffee",
@@ -355,7 +355,7 @@ export async function seed(knex) {
   },
   {
     "id": "a1b2c3d4-1111-2222-3333-444444444445",
-    "photo": "http://localhost:8080/images/Photo-27.png",
+    "photo": "https://sixcafesbackend-73cce46c9779.herokuapp.com/images/Photo-27.png",
     "photoDescription": "Milky’s is a Toronto treasure that blends minimalist charm with a warm, welcoming glow, perfect for coffee lovers and pastry enthusiasts alike. Known for its expertly brewed espresso and velvety lattes, this café shines with a rotating lineup of house-made baked goods—think flaky croissants, rich cinnamon buns, and delicate scones that pair beautifully with every sip.",
     "cafeFavourites": "Our favourites: The Milky's Special, The Coco Matcha, Flat White",
     "photographer": "Milky's",
@@ -368,7 +368,7 @@ export async function seed(knex) {
   },
   {
     "id": "e5f6g7h8-9999-8888-7777-666666666661",
-    "photo": "http://localhost:8080/images/Photo-28.png",
+    "photo": "https://sixcafesbackend-73cce46c9779.herokuapp.com/images/Photo-28.png",
     "photoDescription": "Agenda Cafe is a spacious Little Italy gem, blending vintage schoolhouse charm with Wes Anderson-inspired flair. Expect expertly brewed double-shot coffees from Propeller or Hatch, paired with standout treats like the spinach-feta cruffin—a croissant-muffin hybrid.",
     "cafeFavourites": "Our favourites: Their Muffins!",
     "photographer": "Agenda Cafe",
@@ -381,7 +381,7 @@ export async function seed(knex) {
   },
   {
     "id": "f7k9m2p4-3333-7777-9999-888888888882",
-    "photo": "http://localhost:8080/images/Photo-29.png",
+    "photo": "https://sixcafesbackend-73cce46c9779.herokuapp.com/images/Photo-29.png",
     "photoDescription": "Wallace Espresso is a west-end Toronto favorite, serving up rich, dark-roasted brews in a cozy, pocket-sized space. Known for its top-notch espresso drinks and friendly neighborhood feel, it’s the go-to spot for caffeine lovers seeking quality and charm in equal measure.",
     "cafeFavourites": "Our favourites: Ginger Molasses Cookies, Iced Latte",
     "photographer": "Wallace Espresso",
@@ -394,7 +394,7 @@ export async function seed(knex) {
   },
   {
     "id": "c4d5e6f7-2222-6666-8888-999999999993",
-    "photo": "http://localhost:8080/images/Photo-30.png",
+    "photo": "https://sixcafesbackend-73cce46c9779.herokuapp.com/images/Photo-30.png",
     "photoDescription": "A modern Japanese minimalist haven with clean lines, light wood, and a calming neutral palette. Floor-to-ceiling windows flood the space with natural light, making it a student and photographer’s delight.",
     "cafeFavourites": "Our favourites: Red Bean Rolls, Matcha White Chocolate Cookie, Matcha Latte, Hojicha Tea",
     "photographer": "Neo Coffee Bar",
@@ -407,7 +407,7 @@ export async function seed(knex) {
   },
   {
     "id": "f907dd80-7973-43de-85ef-aa69b6c1b7c5",
-    "photo": "http://localhost:8080/images/Photo-31.png",
+    "photo": "https://sixcafesbackend-73cce46c9779.herokuapp.com/images/Photo-31.png",
     "photoDescription": "Hale Coffee is a haven for Toronto’s caffeine lovers, serving up expertly roasted beans with a side of good vibes. This indie roastery is all about high-quality, ethically sourced coffee, and you can taste the passion in every sip.",
     "cafeFavourites": "Our favourites: Cortado, Nitro Cold Brew, Spanish Latte",
     "photographer": "Hale Coffee Roasters",
@@ -420,7 +420,7 @@ export async function seed(knex) {
   },
   {
     "id": "e307d5a4-6ef7-4d7f-b397-2631cad4bea8",
-    "photo": "http://localhost:8080/images/Photo-32.png",
+    "photo": "https://sixcafesbackend-73cce46c9779.herokuapp.com/images/Photo-32.png",
     "photoDescription": "Propeller Coffee on Wade Ave is where top-notch coffee meets a sleek, industrial-chic vibe. As an award-winning roastery, they take their beans seriously—expect rich flavors and expertly crafted drinks.",
     "cafeFavourites": "Our favourites: Flat White, Iced Americano, Matcha Latte",
     "photographer": "Propeller Coffee",
@@ -433,7 +433,7 @@ export async function seed(knex) {
   },
   {
     "id": "6a9f8c2b-3d47-4e8e-b1f5-9287d0c34a6d",
-    "photo": "http://localhost:8080/images/Photo-33.png",
+    "photo": "https://sixcafesbackend-73cce46c9779.herokuapp.com/images/Photo-33.png",
     "photoDescription": "Isle of Coffee blends East Asian and French culinary influences, providing a variety of specialty drinks and pastries crafted from imported ingredients. Exclusive to the Queen Street location is the pourover coffee, an eight-ounce handcrafted brew known for its rich flavour.",
     "cafeFavourites": "Our favourites: Iced Hojicha Latte, Basque Cheesecake, Pourover Coffee, Vanilla Cookie Choux",
     "photographer": "Isle of Coffee",
@@ -446,7 +446,7 @@ export async function seed(knex) {
   },
   {
     "id": "c4e8b9d2-71f3-4a6c-9f6a-2d48a5b87b23",
-    "photo": "http://localhost:8080/images/Photo-34.png",
+    "photo": "https://sixcafesbackend-73cce46c9779.herokuapp.com/images/Photo-34.png",
     "photoDescription": "Shy Coffee Co. is a hidden gem that’s anything but timid when it comes to quality coffee. With expertly crafted espresso, unique seasonal drinks, and a cozy yet modern aesthetic, this spot is perfect for those who appreciate great coffee without the fuss.",
     "cafeFavourites": "Our favourites: Almond Croissant, Flat White, Iced Hazelnut Latte",
     "photographer": "Shy Coffee Co",
@@ -459,7 +459,7 @@ export async function seed(knex) {
   },
   {
     "id": "f7b2c6d9-3a5e-47d8-8f1c-65e91db4e912",
-    "photo": "http://localhost:8080/images/Photo-35.png",
+    "photo": "https://sixcafesbackend-73cce46c9779.herokuapp.com/images/Photo-35.png",
     "photoDescription": "At AM Coffee Studio, your morning pick-me-up comes with a side of wellness. This unique café-meets-studio in Toronto blends expertly crafted espresso and teas with a mindful, laid-back atmosphere. Whether you’re fueling up with a velvety matcha latte, savoring their avocado toast, or indulging in a freshly baked pastry, every bite and sip feels like a little self-care moment.",
     "cafeFavourites": "Our favourites: Everything Bagel with Beet Rose, Avocado Toast, Iced Latte",
     "photographer": "AM Coffee Studio",
@@ -472,7 +472,7 @@ export async function seed(knex) {
   },
   {
     "id": "a9f4d3c2-6b8e-4f5a-91d7-2c3e7e8b9f10",
-    "photo": "http://localhost:8080/images/Photo-36.png",
+    "photo": "https://sixcafesbackend-73cce46c9779.herokuapp.com/images/Photo-36.png",
     "photoDescription": "5s Café is a hidden gem where precision meets passion. Inspired by the “5S” Japanese philosophy of efficiency and simplicity, this cozy spot serves up expertly crafted espresso drinks, matcha lattes, and picture-perfect pastries.",
     "cafeFavourites": "Our favourites: Saffron Cake, Chai Latte, Walnut & Cheese Scone",
     "photographer": "5s Cafe",
@@ -485,7 +485,7 @@ export async function seed(knex) {
   },
   {
     "id": "123e4567-e89b-12d3-a456-426614174000",
-    "photo": "http://localhost:8080/images/Photo-37.png",
+    "photo": "https://sixcafesbackend-73cce46c9779.herokuapp.com/images/Photo-37.png",
     "photoDescription": "Sam James Coffee Bar, affectionately known as SJCB, is a cornerstone of Toronto’s specialty coffee scene since its establishment in 2009. With four downtown locations, SJCB is celebrated for its minimalist approach, focusing on delivering exceptional coffee without any gimmicks. Their menu is straightforward, featuring expertly crafted drip coffee, espresso drinks, lattes, and teas. Each beverage is meticulously prepared, reflecting their commitment to quality and flavour.",
     "cafeFavourites": "Our favourites: Espresso, Iced Chai Latte, Flat White",
     "photographer": "Sam James Coffee Bar",
@@ -498,7 +498,7 @@ export async function seed(knex) {
   },
   {
     "id": "b7f4d8e9-3a12-457c-92b6-5d8e6a4c9f77",
-    "photo": "http://localhost:8080/images/Photo-38.png",
+    "photo": "https://sixcafesbackend-73cce46c9779.herokuapp.com/images/Photo-38.png",
     "photoDescription": "Lazy Barista is the ultimate spot for those who believe good coffee should be savored, not rushed. With a laid-back vibe, minimalist decor, and an expertly curated coffee menu, this café is a dream for espresso purists and casual sippers alike. Whether you’re unwinding with a book or catching up with a friend, Lazy Barista serves up rich flavors, smooth pours, and just the right amount of caffeine-fueled inspiration.",
     "cafeFavourites": "Our favourites: Lazy B Special, Honey Cardamom Latte",
     "photographer": "Lazy Barista",
@@ -511,7 +511,7 @@ export async function seed(knex) {
   },
   {
     "id": "e3a9f12c-41cd-4d5d-b089-fb34185a2201",
-    "photo": "http://localhost:8080/images/Photo-39.png",
+    "photo": "https://sixcafesbackend-73cce46c9779.herokuapp.com/images/Photo-39.png",
     "photoDescription": "Step into CocoaLatte, where chocolate dreams meet coffee perfection! Whether you’re a mocha enthusiast or a dedicated hot cocoa lover, this cozy café brings a warm, indulgent twist to your typical coffee run. With every sip, you’re transported to a rich world of velvety cocoa blends, expertly brewed espresso, and treats that make your sweet tooth sing.",
     "cafeFavourites": "Our favourites: Signature Hot Chocolate, Mocha Latte, CocoaGlaze Doughnut, Nutella Croissant",
     "photographer": "Cocoalatte",
@@ -524,7 +524,7 @@ export async function seed(knex) {
   },
   {
     "id": "f5d1b072-9156-4a6c-986e-61db66b8230b",
-    "photo": "http://localhost:8080/images/Photo-40.png",
+    "photo": "https://sixcafesbackend-73cce46c9779.herokuapp.com/images/Photo-40.png",
     "photoDescription": "Hamers Coffee – your cozy corner for unbeatable brews and freshly baked delights! Whether you’re catching up with friends or lost in a good book, this café offers the perfect vibe. Their coffee is smooth, and the pastries? Simply to die for. If you’re ever in the area, don’t miss out on their signature cinnamon rolls and creamy lattes.",
     "cafeFavourites": "Our favourites: Cinnamon Rolls, Flat White, Breakfast Sandwiches, Iced Caramel Latte",
     "photographer": "Hamers Coffee",
@@ -537,7 +537,7 @@ export async function seed(knex) {
   },
   {
     "id": "2c8d4f7b-e46d-4d92-a1d5-ccba3654ddef",
-    "photo": "http://localhost:8080/images/Photo-41.png",
+    "photo": "https://sixcafesbackend-73cce46c9779.herokuapp.com/images/Photo-41.png",
     "photoDescription": "Caked Coffee - Where coffee and cake collide in perfect harmony! This cozy, two-in-one bakery and coffee shop is the go-to spot for anyone craving delicious vegan desserts alongside a cup of expertly brewed coffee. Whether you’re here for the indulgent cakes or the unique blend of beverages, Caked Coffee will satisfy your sweet tooth while giving you the perfect vibe to chill or work.",
     "cafeFavourites": "Our favourites: Cake Jars, Iced Dirty Chai Latte, Matcha Cupcake, Cinnamon Roll, Strawberry Shortcake Cupcake",
     "photographer": "Caked Coffee",
@@ -550,7 +550,7 @@ export async function seed(knex) {
   },
   {
     "id": "b8f5a9d3-47c1-42e6-88b2-5c93e6a1e8f1",
-    "photo": "http://localhost:8080/images/Photo-42.png",
+    "photo": "https://sixcafesbackend-73cce46c9779.herokuapp.com/images/Photo-42.png",
     "photoDescription": "More than just a coffee shop, Creeds Coffee Bar is where great espresso meets urban chic. Tucked in a stylish yet cozy setting, it’s the kind of place where coffee lovers, remote workers, and pastry aficionados come together. Whether you’re sipping on a velvety flat white, indulging in a buttery croissant, or just soaking in the relaxed atmosphere, Creeds delivers on all fronts. Bonus? There’s even a dry-cleaning service in the back—because why not grab a latte while getting your wardrobe refreshed?",
     "cafeFavourites": "Our favourites: Avocado Toast, Iced Latte, Matcha Latte, Cold Brew",
     "photographer": "Creeds Coffee Bar",
@@ -563,7 +563,7 @@ export async function seed(knex) {
   },
   {
     "id": "d57c979e-96ff-4471-9867-d8d270d62ed3",
-    "photo": "http://localhost:8080/images/Photo-43.png",
+    "photo": "https://sixcafesbackend-73cce46c9779.herokuapp.com/images/Photo-43.png",
     "photoDescription": "Rooms Coffee is a hidden gem nestled in Toronto, offering a unique fusion of Japanese-inspired aesthetics and cozy ambiance. Each location boasts eclectic interiors that transport you to a serene retreat—perfect for getting lost in a book, tackling assignments, or diving into deep work. The pour-over bar also doubles as a DJ booth! So whether you’re savouring their signature hojicha latte or indulging in a buttery almond croissant, Rooms Coffee provides a peaceful escape from the hustle and bustle, making it an ideal study spot for those seeking focus and inspiration.",
     "cafeFavourites": "Our favourites: Hojicha Latte, Matcha Latte, Kouign Amann, Nitro Cold Brew",
     "photographer": "Rooms Coffee",
@@ -576,7 +576,7 @@ export async function seed(knex) {
   },
   {
     "id": "4f8a9c12-3d6e-45b7-b2d9-9a7f5e8c1d34",
-    "photo": "http://localhost:8080/images/Photo-44.png",
+    "photo": "https://sixcafesbackend-73cce46c9779.herokuapp.com/images/Photo-44.png",
     "photoDescription": "Cocoon Coffee is a delightful haven nestled near the Dufferin-Wilson intersection in Toronto. This café offers a cool, calm atmosphere for nearby residents looking for a place to unwind, and a short commute for coffee enthusiasts looking to try a new shop.",
     "cafeFavourites": "Our favourites: Dalgona Iced Coffee, Blueberry Scone, Iced Matcha Latte, Tiramisu, Salted Brownie",
     "photographer": "Cocoon Coffee",
@@ -589,7 +589,7 @@ export async function seed(knex) {
   },
   {
     "id": "e7b8a9d3-5c1f-4a6e-9b2e-8d5f7a6b9c2e",
-    "photo": "http://localhost:8080/images/Photo-45.png",
+    "photo": "https://sixcafesbackend-73cce46c9779.herokuapp.com/images/Photo-45.png",
     "photoDescription": "Mitfar Boutique Cafe is a unique fusion of art gallery and café nestled in Toronto’s vibrant Summerhill neighbourhood. This charming spot offers a serene ambiance, making it an ideal retreat for art lovers and coffee aficionados alike. With unique offerings like the Pistachio Saffron Round Croissant and Strawberry Mango Croissant, pastry lovers are also in for a treat!",
     "cafeFavourites": "Our favourites: Hot Chocolate, Pistachio Latte, Strawberry Mango Croissant, Peppermint Latte, Strawberry Matcha Latte, Pistachio Croissant",
     "photographer": "Mitfar Boutique Cafe",
@@ -602,7 +602,7 @@ export async function seed(knex) {
   },
   {
     "id": "265052cb-7cbe-4e0d-a901-a469c1adb7f5",
-    "photo": "http://localhost:8080/images/Photo-46.png",
+    "photo": "https://sixcafesbackend-73cce46c9779.herokuapp.com/images/Photo-46.png",
     "photoDescription": "Nestled in Downtown Toronto, this sleek and modern cafe is a hub for coffee lovers who appreciate top-tier beans and expertly calibrated espresso. Whether you’re sipping on their signature Nitro Cold Brew or indulging in a flaky croissant, Quantum delivers an experience that’s both innovative and inviting.",
     "cafeFavourites": "Our favourites: Nitro Cold Brew, Flat White, Pain au Chocolat",
     "photographer": "Quantum Coffee",
@@ -615,7 +615,7 @@ export async function seed(knex) {
   },
   {
     "id": "d8f7a62b-3e5b-4b9f-bd6e-89c42eaf9c78",
-    "photo": "http://localhost:8080/images/Photo-47.png",
+    "photo": "https://sixcafesbackend-73cce46c9779.herokuapp.com/images/Photo-47.png",
     "photoDescription": "A slice of Italy in the heart of Toronto, Oretta Caffè is a chic and stylish café offering classic Italian espresso drinks, flaky pastries, and hearty panini. Whether you’re grabbing a quick macchiato on the go or settling in with a creamy cappuccino and a freshly baked pizzetta, this spot delivers la dolce vita in every bite. With a cozy yet modern interior and a welcoming patio, it’s the perfect place to work, unwind, or simply enjoy a taste of Italy.",
     "cafeFavourites": "Our favourites: Pizzetta, Nutella Bombolone, Macchiato, Cappuccino",
     "photographer": "Oretta Caffe",
@@ -628,7 +628,7 @@ export async function seed(knex) {
   },
   {
     "id": "3f8d9a74-b5e2-42c9-a7f1-24dc5e36b87e",
-    "photo": "http://localhost:8080/images/Photo-48.png",
+    "photo": "https://sixcafesbackend-73cce46c9779.herokuapp.com/images/Photo-48.png",
     "photoDescription": "This charming café blends minimalistic design with lush greenery, creating a calming oasis perfect for unwinding or getting work done. Whether you’re savoring a meticulously brewed pour-over or indulging in a flaky pastry, Another Land Coffee is a hidden gem for those who appreciate both aesthetics and quality coffee.",
     "cafeFavourites": "Our favourites: Tiramisu Latte, Basque Cheesecake, Iced Yuzu Americano, Matcha Tiramisu Latte",
     "photographer": "Another Land Coffee",
@@ -641,7 +641,7 @@ export async function seed(knex) {
   },
   {
     "id": "7f4b9c12-3d6a-4e5b-8f2e-92c7d1a6b8e3",
-    "photo": "http://localhost:8080/images/Photo-49.png",
+    "photo": "https://sixcafesbackend-73cce46c9779.herokuapp.com/images/Photo-49.png",
     "photoDescription": "Coffee Lunar brings a celestial touch to Toronto’s cafe scene, offering a sleek yet cozy space where coffee lovers can escape the daily grind. With its minimalist decor, warm lighting, and perfectly crafted espresso drinks, it’s the ideal spot for both casual catch-ups and focused study sessions. Whether you’re enjoying a creamy Lunar Latte or a fresh-baked croissant, every visit feels like a little escape to the moon.",
     "cafeFavourites": "Our favourites: Lunar Latte, Matcha Basque Cheesecake, Vanilla Drop Latte, Cream Drop, Mocha Latte",
     "photographer": "Coffee Lunar",
@@ -654,7 +654,7 @@ export async function seed(knex) {
   },
   {
     "id": "d9b3f8c2-7a5d-4e6f-91a2-3c7d8e4f5b1a",
-    "photo": "http://localhost:8080/images/Photo-50.png",
+    "photo": "https://sixcafesbackend-73cce46c9779.herokuapp.com/images/Photo-50.png",
     "photoDescription": "Le Bleu Coffee is a hidden gem in North York, bringing a chic European café vibe with a modern twist. Known for its cozy decor and beautifully plated drinks, this spot is perfect for coffee aficionados and pastry lovers alike.",
     "cafeFavourites": "Our favourites: Pistachio Croissant, Raspberry Croissant, Blue Latte, Pistachio Latte",
     "photographer": "Le Bleu Coffee",
@@ -667,7 +667,7 @@ export async function seed(knex) {
   },
   {
     "id": "f7c2e8d9-4b6a-3f5e-91a7-2d8c3b7f4e5a",
-    "photo": "http://localhost:8080/images/Photo-51.png",
+    "photo": "https://sixcafesbackend-73cce46c9779.herokuapp.com/images/Photo-51.png",
     "photoDescription": "Cafe Zuzu brings a vibrant, Italian-inspired all-day café experience to the heart of Toronto. With retro-chic decor and a menu filled with delicious brunch offerings, this spot is perfect for those who love a mix of indulgence and charm. Whether you’re sipping on a velvety cappuccino, enjoying a ricotta-filled bombolone, or digging into their famous breakfast sandwich, Cafe Zuzu is all about turning everyday moments into something special.",
     "cafeFavourites": "Our favourites: Vanilla Matcha Latte, Ricotta Bombolone, Raspberry Cream Cornetti, Breakfast Sandwich, Pistachio Croissant, Zuzu Cappuccino",
     "photographer": "Cafe Zuzu",
@@ -680,7 +680,7 @@ export async function seed(knex) {
   },
   {
     "id": "a3d7f9c2-8b6e-4f1a-92d7-3c5e7a4b8d9f",
-    "photo": "http://localhost:8080/images/Photo-52.png",
+    "photo": "https://sixcafesbackend-73cce46c9779.herokuapp.com/images/Photo-52.png",
     "photoDescription": "If you’re all about freshly baked goodness and top-tier coffee, Bready Cafe is your new go-to. This cozy spot specializes in artisanal pastries, buttery croissants, and picture-perfect lattes. Whether you’re grabbing a quick breakfast or indulging in their famous egg drop sandwiches, Bready Cafe is all about comfort, quality, and the simple joys of great food.",
     "cafeFavourites": "Our favourites: Pistachio Cruffin, Vanilla & Berries Cube Croissant, Egg Drop Sandwich, Matcha Latte",
     "photographer": "Bready Cafe",
@@ -693,7 +693,7 @@ export async function seed(knex) {
   },
   {
     "id": "c5f8e7d2-9b4a-4c1e-82f6-7d3a9b5e8c1f",
-    "photo": "http://localhost:8080/images/Photo-53.png",
+    "photo": "https://sixcafesbackend-73cce46c9779.herokuapp.com/images/Photo-53.png",
     "photoDescription": "If scones are your love language, Hiya Scone & Coffee is the perfect place to treat yourself. Nestled in Downtown Toronto, this charming café specializes in handmade scones—flaky, buttery, and available in both sweet and savory varieties. Pair one with their expertly brewed coffee or a fragrant tea latte, and you’ve got yourself the perfect cozy moment.",
     "cafeFavourites": "Our favourites: Matcha White Chocolate Scone, Raspberry White Chocolate Scone, Hojicha Latte, Matcha Latte & Ice Cream",
     "photographer": "Hiya Scone & Coffee",
@@ -706,7 +706,7 @@ export async function seed(knex) {
   },
   {
     "id": "a3e7d9f2-4b6c-43e1-85d7-91f8c5e2a7b4",
-    "photo": "http://localhost:8080/images/Photo-54.png",
+    "photo": "https://sixcafesbackend-73cce46c9779.herokuapp.com/images/Photo-54.png",
     "photoDescription": "Nestled in the heart of Markham, Studio de Corner is a charming café that blends artistry with coffee craftsmanship. With its cozy interiors and relaxing ambiance, it’s the perfect place to unwind with a silky latte and a delectable pastry.",
     "cafeFavourites": "Our favourites: Beet Latte, Lemon Cake, Charcoal Latte, Matcha Latte with Strawberry Foam, Japanese Souffle Pancakes",
     "photographer": "Studio de Corner",
@@ -719,7 +719,7 @@ export async function seed(knex) {
   },
   {
     "id": "d5e9a1c3-47f2-4f80-b2d6-9a7c6e5b8f4a",
-    "photo": "http://localhost:8080/images/Photo-55.png",
+    "photo": "https://sixcafesbackend-73cce46c9779.herokuapp.com/images/Photo-55.png",
     "photoDescription": "Simpl Cafe is all about effortless charm, expertly crafted coffee, and a warm, inviting atmosphere. Whether you’re stopping by for a perfectly pulled espresso, cozying up with a honey lavender latte, or treating yourself to a buttery croissant, this cafe keeps things deliciously simple.",
     "cafeFavourites": "Our favourites: Saffron Latte, Tehran Fog, Honey Lavender Latte, Matcha Basque Cheesecake, Truffle Mushroom Grilled Cheese, Iced Berry Matcha, pwr Smoothie",
     "photographer": "Simpl Cafe",
@@ -732,7 +732,7 @@ export async function seed(knex) {
   },
   {
     "id": "b3197a30-344c-4f37-8c3d-a859c7611d14",
-    "photo": "http://localhost:8080/images/Photo-56.png",
+    "photo": "https://sixcafesbackend-73cce46c9779.herokuapp.com/images/Photo-56.png",
     "photoDescription": "World Peace Cafe & Eatery is more than just a cafe—it’s a movement dedicated to spreading peace and unity through delightful treats. Renowned for their freshly made mini donuts with unique flavours like Cookies n Cream, Pistachio, and Lotus with White Chocolate, this spot is a haven for dessert enthusiasts. Their premium ice cream and specialty chai and coffee blends complement the sweet offerings perfectly.",
     "cafeFavourites": "Our favourites: Dubai Chocolate, Mini Donuts (Pistachio, Lotus Biscoff), Pink Chai",
     "photographer": "World Peace Cafe & Eatery",
@@ -745,7 +745,7 @@ export async function seed(knex) {
   },
   {
     "id": "b7e8c9d2-5f4e-4a6e-9b2e-8d5f7a6b9c2e",
-    "photo": "http://localhost:8080/images/Photo-57.png",
+    "photo": "https://sixcafesbackend-73cce46c9779.herokuapp.com/images/Photo-57.png",
     "photoDescription": "Cotti Coffee is your go-to spot for a caffeine-fueled adventure! This cozy gem serves up some of the city’s boldest brews, paired with a vibe that’s equal parts chill and charming. Whether you’re sipping a velvety latte or munching on a flaky pastry, Cotti’s got that perfect mix of laid-back ambience and big flavour to brighten your day.",
     "cafeFavourites": "Our favourites: Matcha Oat Latte, Pampas Blue Coco Latte, Coco Cotti, Matcha Jasmine Frappe",
     "photographer": "Cotti Coffee",
@@ -758,7 +758,7 @@ export async function seed(knex) {
   },
   {
     "id": "e13f8a7b-2d3c-4b6a-92f9-8c3d5e7f6b4d",
-    "photo": "http://localhost:8080/images/Photo-58.png",
+    "photo": "https://sixcafesbackend-73cce46c9779.herokuapp.com/images/Photo-58.png",
     "photoDescription": "Bevy Cafe is a versatile space that seamlessly blends a cafe, event venue, gallery, and shop. With its modern and artistic ambiance, it’s an ideal spot for both work and relaxation. The cafe also offers a variety of seating options, including noise-canceling cubicles, window booths, and communal dining tables, catering to diverse preferences.",
     "cafeFavourites": "Our favourites: Mango Peach Danish, Hojicha Latte, Blueberry Scone",
     "photographer": "Bevy",
@@ -771,7 +771,7 @@ export async function seed(knex) {
   },
   {
     "id": "e3a1c2b4-5f6d-4a8e-9c7b-2d1e4f5a6b7c",
-    "photo": "http://localhost:8080/images/Photo-59.png",
+    "photo": "https://sixcafesbackend-73cce46c9779.herokuapp.com/images/Photo-59.png",
     "photoDescription": "Dispatch Coffee, originating from Montreal’s vibrant coffee scene, has planted its flag in Toronto. This cafe is more than just a place to grab a cup; it’s a testament to ethical sourcing and sustainability.  Their offerings include a variety of responsibly sourced beans, such as the ‘La Resistencia Decaf Guatemala’ with notes of milk chocolate and vanilla wafer, and the ‘Blend Saisonnier’ featuring hints of caramel and red apple. Beyond coffee, Dispatch also provides brewing equipment and hosts monthly coffee tasting events, fostering a deeper appreciation for the craft.",
     "cafeFavourites": "Our favourites: Matcha Chai Latte, Matcha Earl Grey Latte, Latte with Oat Milk, Hibiscus Cinnamon Iced Tea",
     "photographer": "Dispatch Coffee",
@@ -784,7 +784,7 @@ export async function seed(knex) {
   },
   {
     "id": "05c22402-0ac2-4618-892b-7846a5d25233",
-    "photo": "http://localhost:8080/images/Photo-60.png",
+    "photo": "https://sixcafesbackend-73cce46c9779.herokuapp.com/images/Photo-60.png",
     "photoDescription": "Bloom Cafe offers a delightful fusion of premium Japanese desserts and artisanal teas. Their signature cream puffs, praised for their balanced sweetness, are a must-try. The cafe’s inviting ambiance makes it an ideal spot for casual meet-ups!",
     "cafeFavourites": "Our favourites: Iced Matcha Latte, Kinako Daifuku, Cruncy Eclair (Matcha, Earl Grey), Parfait Bloom, Matcha Sundae, Cream Puffs, Roll Cakes",
     "photographer": "Bloom Cafe",
@@ -797,7 +797,7 @@ export async function seed(knex) {
   },
   {
     "id": "c9f3c5b1-8a6e-4e2d-bf7a-1d2f4e6c9b8a",
-    "photo": "http://localhost:8080/images/Photo-61.png",
+    "photo": "https://sixcafesbackend-73cce46c9779.herokuapp.com/images/Photo-61.png",
     "photoDescription": "Buno Coffee brings a vibrant coffee experience to Toronto’s West End. Founded by former baristas turned entrepreneurs, Fadi Salib and Tony Taza, Buno Coffee emphasizes responsibly sourced beans from local roasters, offering a diverse spectrum of flavours.",
     "cafeFavourites": "Our favourites: Cardamom Latte, Cortado, Iced Spanish Latte, Scones",
     "photographer": "Buno Coffee",
@@ -810,7 +810,7 @@ export async function seed(knex) {
   },
   {
     "id": "123e4587-e89b-12d3-a456-426614174000",
-    "photo": "http://localhost:8080/images/Photo-62.png",
+    "photo": "https://sixcafesbackend-73cce46c9779.herokuapp.com/images/Photo-62.png",
     "photoDescription": "Maha’s Cafe brings the rich flavors of Egyptian cuisine to Toronto’s vibrant food scene. This cozy spot, an extension of the beloved Maha’s Brunch, offers a warm and inviting atmosphere that makes every guest feel at home.",
     "cafeFavourites": "Our favourites: Honey Cardamom Latte, Lentil Soup, Salad Baba Ganoush, Honey Date Grilled Cheese",
     "photographer": "Maha's Cafe",
@@ -823,7 +823,7 @@ export async function seed(knex) {
   },
   {
     "id": "9d5f8161-093a-47bb-8977-b24db66bc1d0",
-    "photo": "http://localhost:8080/images/Photo-63.png",
+    "photo": "https://sixcafesbackend-73cce46c9779.herokuapp.com/images/Photo-63.png",
     "photoDescription": "Casa Boho Juice Bar & Cafe is your cozy oasis for vibrant, fresh flavours and laid-back vibes. Whether you’re sipping on their delicious smoothies, enjoying a hearty bowl of acai, or indulging in one of their flavourful wraps, you’ll feel like you’re on vacation. This spot is perfect for a midday pick-me-up or a chill catch-up with friends. And, with its bohemian, artsy decor, it’s the perfect place to unwind and sip on something refreshing.",
     "cafeFavourites": "Our favourites: Cocoa Crush, Caffe Latte, Tuna Melt Panini, Besame Matcha Bowl",
     "photographer": "Casa Boho Juice Bar & Cafe",
@@ -836,7 +836,7 @@ export async function seed(knex) {
   },
   {
     "id": "06a9394d-49c6-4936-b3b2-5a02d7f6e8e4",
-    "photo": "http://localhost:8080/images/Photo-64.png",
+    "photo": "https://sixcafesbackend-73cce46c9779.herokuapp.com/images/Photo-64.png",
     "photoDescription": "Cozy, elegant, and perfect for your next coffee break! Nestled in a quaint spot, Cosette Coffee is where you’ll want to sip on expertly brewed coffee while basking in a warm and inviting atmosphere. Their cozy vibes and rich espresso-based drinks, like the Cortado and Affogato, make it an ideal place to unwind. If you’re in the mood for something lighter, their almond croissants and fruit tarts are delicious too.",
     "cafeFavourites": "Our favourites: Matcha Latte, Matcha Cheesecake, Earl Grey Dacquouise, Gold Crush Latte, Almond Croissant",
     "photographer": "Cosette Coffee",
@@ -849,7 +849,7 @@ export async function seed(knex) {
   },
   {
     "id": "92f64d49-d6d5-4182-bd94-e6e59d7f467f",
-    "photo": "http://localhost:8080/images/Photo-65.png",
+    "photo": "https://sixcafesbackend-73cce46c9779.herokuapp.com/images/Photo-65.png",
     "photoDescription": "A cozy gem tucked away in the heart of the city, Rustle and Still Cafe is the perfect retreat for coffee lovers. Whether you’re there for a warm latte paired with a freshly baked pastry or to enjoy a peaceful morning with their signature avocado toast, this place has you covered. The ambiance is inviting and tranquil, with a rustic charm that makes it an ideal spot to catch up on work or unwind with friends.",
     "cafeFavourites": "Our favourites: Iced Matcha Pandan Latte, Oat Milk Cappuccino, Banh Mi Sandwich, Purple Sweet Potato Latte",
     "photographer": "Rustle & Still Cafe",
