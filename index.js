@@ -38,7 +38,7 @@ app.use(cors({
     origin: function (origin, callback) {
       const allowedOrigins = [
         process.env.CORS_ORIGIN || 'http://localhost:5173',
-        'https://main--6ixcafes.netlify.app'
+        'https://6ixcafes.netlify.app'
       ];
   
       if (!origin || allowedOrigins.includes(origin)) {
@@ -48,7 +48,7 @@ app.use(cors({
       }
     }
   }));
-  
+
 app.use(express.json());
 app.use('/images', express.static('./public/images'));
 app.use('/photos', photos);
