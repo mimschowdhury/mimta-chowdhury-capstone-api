@@ -12,46 +12,49 @@
 //   },
 // };
 
-import 'dotenv/config'; // Use `import` for loading environment variables
-import knex from 'knex';  // To use knex for connection URL parsing (optional)
+require('dotenv').config(); // Load env vars for CommonJS
 
-// Helper function to parse the DATABASE_URL into an object
+// Helper function to parse DATABASE_URL for production
 function parseDatabaseUrl(databaseUrl) {
-  const url = new URL(databaseUrl);
-  return {
-    client: 'mysql2',
-    connection: {
-      host: url.hostname,
-      port: url.port,
-      user: url.username,
-      password: url.password,
-      database: url.pathname.split('/')[1], // Extracts database name from the URL
-    },
-  };
+  try {
+    const url = new URL(databaseUrl);
+    return {
+      client: 'mysql2',
+      connection: {
+        host: url.hostname,
+        port: url.port || 3306, // Default MySQL port
+        user: url.username,
+        password: url.password,
+        database: url.pathname.replace('/', ''), // Remove leading slash
+        charset: 'utf8',
+      },
+      pool: { min: 2, max: 10 },
+      migrations: { tableName: 'knex_migrations' },
+    };
+  } catch (error) {
+    console.error('Error parsing DATABASE_URL:', error.message);
+    throw error;
+  }
 }
 
-export default {
-  development: {
-    client: 'mysql2',
-    connection: {
-      host: process.env.DB_HOST,
-      user: process.env.DB_USER,
-      password: process.env.DB_PASSWORD,
-      database: process.env.DB_NAME,
-    },
-    pool: { min: 2, max: 10 },
-    migrations: { tableName: 'knex_migrations' },
+// Base configuration for local development
+const baseConfig = {
+  client: 'mysql2',
+  connection: {
+    host: process.env.DB_HOST || '127.0.0.1',
+    user: process.env.DB_USER || 'root',
+    password: process.env.DB_PASSWORD || 'rootroot',
+    database: process.env.DB_NAME || 'cafes',
+    charset: 'utf8',
   },
+  pool: { min: 2, max: 10 },
+  migrations: { tableName: 'knex_migrations' },
+};
+
+module.exports = {
+  development: baseConfig,
 
   production: process.env.DATABASE_URL
     ? parseDatabaseUrl(process.env.DATABASE_URL)
-    : {
-        client: 'mysql2',
-        connection: {
-          host: process.env.DB_HOST,
-          user: process.env.DB_USER,
-          password: process.env.DB_PASSWORD,
-          database: process.env.DB_NAME,
-        },
-      },
+    : baseConfig, // Fallback for testing, but should use DATABASE_URL on Heroku
 };
