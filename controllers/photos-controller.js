@@ -2,7 +2,9 @@ import initKnex from "knex";
 import configuration from "../knexfile.cjs";
 import { v4 as uuidv4 } from "uuid";
 
-const knex = initKnex(configuration);
+// Select environment-specific config
+const env = process.env.NODE_ENV || "development";
+const knex = initKnex(configuration[env]);
 
 // 📸 Get all cafes
 export const getAllCafes = async (req, res) => {

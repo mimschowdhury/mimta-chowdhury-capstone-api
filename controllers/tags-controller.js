@@ -1,7 +1,9 @@
 import initKnex from "knex";
 import configuration from "../knexfile.cjs";
 
-const knex = initKnex(configuration);
+// Select environment-specific config
+const env = process.env.NODE_ENV || "development";
+const knex = initKnex(configuration[env]);
 
 // Get all tags
 export const getAllTags = async (req, res) => {
