@@ -28,8 +28,8 @@
 
 import express from 'express';
 import cors from 'cors';
-import photos from './photos.js'; // Add .js extension
-import tags from './tags.js'; // Add .js extension
+import photos from "./routes/photos.js";
+import tags from "./routes/tags.js";
 
 const app = express();
 const PORT = process.env.PORT || 8080;
