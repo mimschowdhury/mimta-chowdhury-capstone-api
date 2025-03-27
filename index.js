@@ -33,28 +33,16 @@ import photos from './routes/photos.js';
 import tags from './routes/tags.js';
 
 const app = express();
-const PORT = process.env.PORT || 8080; // Heroku dynamically assigns PORT
+const PORT = process.env.PORT || 8080;
 
-// CORS setup
-const { CORS_ORIGIN } = process.env;
-app.use(cors({ origin: CORS_ORIGIN || 'http://localhost:5173' })); // Fallback for local dev
-
-// Enable JSON parsing
+app.use(cors({ origin: process.env.CORS_ORIGIN || 'http://localhost:5173' }));
 app.use(express.json());
-
-// Serve static images
 app.use('/images', express.static('./public/images'));
-
-// Use routers
 app.use('/photos', photos);
 app.use('/tags', tags);
 
-// Basic health check route for debugging
-app.get('/', (req, res) => {
-  res.send('Backend is running!');
-});
+app.get('/', (req, res) => res.send('Backend is running!'));
 
-// Start server
 app.listen(PORT, '0.0.0.0', () => {
   console.log(`Server running on http://0.0.0.0:${PORT}`);
 });

@@ -1,5 +1,5 @@
 import initKnex from "knex";
-import configuration from "../knexfile.js";
+import configuration from "../knexfile.cjs";
 import { v4 as uuidv4 } from "uuid";
 
 const knex = initKnex(configuration);
